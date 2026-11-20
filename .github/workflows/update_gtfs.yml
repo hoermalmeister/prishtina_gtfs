@@ -1,0 +1,40 @@
+name: Update GTFS Feed
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 2 * * *'   # denně 02:50 UTC (03:50/04:50 v Prištině)
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Download data
+        run: python fetch.py
+
+      - name: Build GTFS
+        run: python build_gtfs.py data/raw.json.gz prishtina_gtfs.zip
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/raw.json.gz prishtina_gtfs.zip
+          git diff --staged --quiet || (git commit -m "Automatická aktualizace GTFS dat" && git push)
