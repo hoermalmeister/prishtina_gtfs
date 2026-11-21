@@ -9,14 +9,22 @@ zarovnáním seznamů po trase (autobusy se nepředjíždějí, k-tý odjezd na 
 zastávce odpovídá k-tému na další, s mezerami tam, kde spoj začíná/končí).
 
 Do stop_times jdou jen zastávky s jízdním řádem. Zastávky bez časů (např. při
-výluce) zůstávají jen v stops.txt jako rezerva. Směry, které mají časy na méně
-než dvou zastávkách, spoje nemají.
+výluce) zůstávají jen v stops.txt jako rezerva.
+
+Výjimka: směry, kde má jízdní řád méně než polovina zastávek (typicky jen
+výchozí zastávka – linky 6, 6A, 7, 8, 10, …). U nich se vezmou odjezdy z první
+zastávky s časy a časy na dalších zastávkách se dopočítají z naměřených
+jízdních dob (data/travel_times.json, viz tools/measure_runtimes.py):
+skutečně naměřená doba úseku > odhad navigace × ETA_FACTOR > vzdálenost × rychlost.
+Takové časy mají timepoint=0. Tvary tras (shapes.txt) z data/line_geometry.json.
 
 Použití: python build_gtfs.py [data/raw.json.gz] [prishtina_gtfs.zip]
 """
 
 import csv
 import gzip
+import os
+import statistics
 import io
 import json
 import math
@@ -28,6 +36,11 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 RAW = sys.argv[1] if len(sys.argv) > 1 else "data/raw.json.gz"
+TRAVEL_TIMES = "data/travel_times.json"
+GEOMETRY = "data/line_geometry.json"
+ESTIMATE_BELOW = 0.5              # směr s jízdním řádem na < 50 % zastávek se dopočítá
+ETA_FACTOR = 0.95                 # skutečná doba / odhad navigace (naměřeno na 245 úsecích)
+MIN_SEGMENT_MIN = 0.25
 OUT_ZIP = sys.argv[2] if len(sys.argv) > 2 else "prishtina_gtfs.zip"
 TZ = "Europe/Belgrade"            # Kosovo používá středoevropský čas
 VALID_DAYS = 60
@@ -181,6 +194,32 @@ def text_color(hex_color):
     return "000000" if (0.299 * r + 0.587 * g + 0.114 * b) > 150 else "FFFFFF"
 
 
+def load_optional_json(path):
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as fh:
+            return json.load(fh)
+    return {}
+
+
+def segment_minutes(direction, stops, coord, travel, global_rate):
+    """Jízdní doby úseků směru (min) a čítač zdrojů."""
+    t = travel.get(direction, {})
+    rates = [v["obs_min"] / v["km"] for v in t.values() if v.get("n", 0) >= 2 and v.get("km", 0) > 0.05]
+    rate = statistics.median(rates) if len(rates) >= 3 else global_rate
+    out, src = [], Counter()
+    for a, b in zip(stops, stops[1:]):
+        v = t.get(f"{a}>{b}", {})
+        if v.get("n", 0) >= 2 and v.get("obs_min") is not None:
+            m, how = v["obs_min"], "měření"
+        elif v.get("eta_n", 0) >= 2 and v.get("eta_min") is not None:
+            m, how = v["eta_min"] * ETA_FACTOR, "navigace"
+        else:
+            m, how = dist_km(coord[a], coord[b]) * rate, "vzdálenost"
+        out.append(max(m, MIN_SEGMENT_MIN))
+        src[how] += 1
+    return out, src
+
+
 def main():
     opener = gzip.open if RAW.endswith(".gz") else open
     with opener(RAW, "rt", encoding="utf-8") as fh:
@@ -206,15 +245,48 @@ def main():
             stops = [s["_id"] for s in d["ordered_stations"] if s["_id"] in stations]
             dirs.append((line, d, dir_id, stops))
 
-    routes, trips_out, st_out = {}, [], []
+    travel = load_optional_json(TRAVEL_TIMES)
+    geometry = load_optional_json(GEOMETRY)
+    meas = [v for t in travel.values() for v in t.values() if v.get("n", 0) >= 2 and v.get("km", 0) > 0.05]
+    global_rate = (sum(v["obs_min"] for v in meas) / sum(v["km"] for v in meas)) if meas else 4.0
+    print(f"Naměřené jízdní doby: {len(meas)} úseků, průměr {global_rate:.2f} min/km vzdušnou čarou")
+
+    routes, trips_out, st_out, shapes_used = {}, [], [], set()
     stats = Counter()
     for line, d, dir_id, stops in dirs:
         rid = f"R_{line['_id']}"
+        shape_id = f"S_{d['_id']}" if d["_id"] in geometry else ""
+        timed = {i for i, s in enumerate(stops) for kind in SERVICES
+                 if f"{d['_id']}/{s}" in sched and sched[f"{d['_id']}/{s}"].get(kind)}
+        estimated = bool(timed) and len(timed) < ESTIMATE_BELOW * len(stops)
+        if estimated:
+            segs, src = segment_minutes(d["_id"], stops, coord, travel, global_rate)
+            stats.update({f"úseky dopočtených směrů – {k}": v for k, v in src.items()})
+            cum = [0.0]
+            for m in segs:
+                cum.append(cum[-1] + m)
         for kind, (sid, _days) in SERVICES.items():
             lists = {i: clean(sched[f"{d['_id']}/{s}"][kind]) for i, s in enumerate(stops)
                      if f"{d['_id']}/{s}" in sched and sched[f"{d['_id']}/{s}"].get(kind)}
+            if estimated:
+                if not lists:
+                    continue
+                anchor = min(lists)
+                routes[rid] = line
+                headsign = " ".join(stations[stops[-1]]["name"].split())
+                for n, dep in enumerate(lists[anchor], 1):
+                    tid = f"{d['_id']}_{sid}_{n:03d}"
+                    trips_out.append([rid, sid, tid, headsign, dir_id, shape_id])
+                    shapes_used.add(shape_id)
+                    prev = -1
+                    for i in range(anchor, len(stops)):
+                        t = max(int(round(dep + cum[i] - cum[anchor])), prev)
+                        prev = t
+                        st_out.append([tid, fmt(t), fmt(t), stops[i], i + 1, 1 if i == anchor else 0])
+                    stats["spojů dopočtených"] += 1
+                continue
             if len(lists) < 2:
-                stats[f"směr s časy na < 2 zastávkách ({kind})"] += 1
+                stats[f"směr bez použitelných časů ({kind})"] += 1
                 continue
             routes[rid] = line
             tps = sorted(lists)
@@ -232,10 +304,11 @@ def main():
                 n += 1
                 tid = f"{d['_id']}_{sid}_{n:03d}"
                 headsign = " ".join(stations[stops[idx[-1]]]["name"].split())
-                trips_out.append([rid, sid, tid, headsign, dir_id])
+                trips_out.append([rid, sid, tid, headsign, dir_id, shape_id])
+                shapes_used.add(shape_id)
                 for i in idx:
-                    st_out.append([tid, fmt(known[i]), fmt(known[i]), stops[i], i + 1])
-                stats["spojů"] += 1
+                    st_out.append([tid, fmt(known[i]), fmt(known[i]), stops[i], i + 1, 1])
+                stats["spojů z jízdního řádu"] += 1
 
     today = datetime.now(ZoneInfo(TZ)).date()
     end = today + timedelta(days=VALID_DAYS)
@@ -265,9 +338,17 @@ def main():
         w(zf, "calendar.txt", ["service_id", "monday", "tuesday", "wednesday", "thursday", "friday",
                                "saturday", "sunday", "start_date", "end_date"],
           [[sid, *days, today.strftime("%Y%m%d"), end.strftime("%Y%m%d")] for sid, days in SERVICES.values()])
-        w(zf, "trips.txt", ["route_id", "service_id", "trip_id", "trip_headsign", "direction_id"], trips_out)
+        w(zf, "trips.txt", ["route_id", "service_id", "trip_id", "trip_headsign", "direction_id", "shape_id"],
+          trips_out)
         w(zf, "stop_times.txt", ["trip_id", "arrival_time", "departure_time", "stop_id",
-                                 "stop_sequence"], st_out)
+                                 "stop_sequence", "timepoint"], st_out)
+        shape_rows = []
+        for sh in sorted(x for x in shapes_used if x):
+            pts = (geometry[sh[2:]] or {}).get("coordinates") or []
+            for k, (lon, lat, *_r) in enumerate(pts, 1):
+                shape_rows.append([sh, round(lat, 7), round(lon, 7), k])
+        if shape_rows:
+            w(zf, "shapes.txt", ["shape_id", "shape_pt_lat", "shape_pt_lon", "shape_pt_sequence"], shape_rows)
         w(zf, "feed_info.txt", ["feed_publisher_name", "feed_publisher_url", "feed_lang",
                                 "feed_start_date", "feed_end_date", "feed_version", "feed_contact_url"],
           [["Petr Novak", "https://github.com/hoermalmeister/prishtina_gtfs", "sq",

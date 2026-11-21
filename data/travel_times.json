@@ -1,0 +1,3651 @@
+{
+"67f3b44b7a3ef22704724e25": {
+"6808a1eac377cdac1490c617>6808a2fcc377cdac1490c68c": {
+"obs_min": 0.985,
+"n": 13,
+"eta_min": 1,
+"eta_n": 17,
+"km": 0.304
+},
+"6808a2fcc377cdac1490c68c>6808a352c377cdac1490c6c7": {
+"obs_min": 0.789,
+"n": 20,
+"eta_min": 0.725,
+"eta_n": 51,
+"km": 0.106
+},
+"6808a352c377cdac1490c6c7>6808a3a9c377cdac1490c6ee": {
+"obs_min": 0.978,
+"n": 20,
+"eta_min": 0.545,
+"eta_n": 66,
+"km": 0.182
+},
+"6808a3a9c377cdac1490c6ee>6808a40dc377cdac1490c726": {
+"obs_min": 1.029,
+"n": 21,
+"eta_min": 1.185,
+"eta_n": 81,
+"km": 0.225
+},
+"6808a40dc377cdac1490c726>6808a446c377cdac1490c73a": {
+"obs_min": 0.997,
+"n": 21,
+"eta_min": 1.33,
+"eta_n": 109,
+"km": 0.284
+},
+"6808a446c377cdac1490c73a>67f929c8dea9959f689dd9a6": {
+"obs_min": 0.542,
+"n": 21,
+"eta_min": 0.667,
+"eta_n": 135,
+"km": 0.099
+},
+"67f929c8dea9959f689dd9a6>6808a4dfc377cdac1490c77a": {
+"obs_min": 0.468,
+"n": 20,
+"eta_min": 0.573,
+"eta_n": 150,
+"km": 0.113
+},
+"6808a4dfc377cdac1490c77a>5d5552e18daa9a087b27178c": {
+"obs_min": 2.006,
+"n": 17,
+"eta_min": 1.829,
+"eta_n": 158,
+"km": 0.336
+},
+"5d5552e18daa9a087b27178c>5d5553178daa9a087b271b46": {
+"obs_min": 2.988,
+"n": 17,
+"eta_min": 2.418,
+"eta_n": 194,
+"km": 0.53
+},
+"5d5553178daa9a087b271b46>5d5550058daa9a087b26e9c7": {
+"obs_min": 2.043,
+"n": 19,
+"eta_min": 2.529,
+"eta_n": 242,
+"km": 0.438
+},
+"5d5550058daa9a087b26e9c7>5d555fbc8daa9a087b27e8ee": {
+"obs_min": 2.045,
+"n": 18,
+"eta_min": 2.042,
+"eta_n": 289,
+"km": 0.484
+},
+"5d555fbc8daa9a087b27e8ee>5d555feb8daa9a087b27eb51": {
+"obs_min": 1.617,
+"n": 18,
+"eta_min": 2.287,
+"eta_n": 335,
+"km": 0.432
+},
+"5d555feb8daa9a087b27eb51>6550f04398b7b5382f0ed472": {
+"obs_min": 1.994,
+"n": 17,
+"eta_min": 1.995,
+"eta_n": 364,
+"km": 0.418
+},
+"6550f04398b7b5382f0ed472>5d55465605333f05dad22fda": {
+"obs_min": 2.972,
+"n": 15,
+"eta_min": 4.166,
+"eta_n": 415,
+"km": 0.278
+},
+"5d55465605333f05dad22fda>5d55467605333f05dad231cd": {
+"obs_min": 2.003,
+"n": 18,
+"eta_min": 1.812,
+"eta_n": 467,
+"km": 0.431
+},
+"5d55467605333f05dad231cd>5d55469705333f05dad233c3": {
+"obs_min": 2.478,
+"n": 18,
+"eta_min": 2.887,
+"eta_n": 467,
+"km": 0.374
+},
+"5d55469705333f05dad233c3>5d5553c98daa9a087b2726ef": {
+"obs_min": 2.007,
+"n": 18,
+"eta_min": 1.775,
+"eta_n": 494,
+"km": 0.558
+},
+"5d5553c98daa9a087b2726ef>5d5554a28daa9a087b273578": {
+"obs_min": 3.731,
+"n": 17,
+"eta_min": 3.87,
+"eta_n": 471,
+"km": 0.645
+},
+"5d5554a28daa9a087b273578>5d5554cf8daa9a087b2738c5": {
+"obs_min": 1.01,
+"n": 17,
+"eta_min": 1.329,
+"eta_n": 514,
+"km": 0.232
+},
+"5d5554cf8daa9a087b2738c5>5d5555898daa9a087b2744da": {
+"obs_min": 2.978,
+"n": 19,
+"eta_min": 2.82,
+"eta_n": 473,
+"km": 0.668
+},
+"5d5555898daa9a087b2744da>6808aa8fc377cdac1490ca95": {
+"obs_min": 2.023,
+"n": 18,
+"eta_min": 2.609,
+"eta_n": 465,
+"km": 0.496
+},
+"6808aa8fc377cdac1490ca95>6808aa0fc377cdac1490ca3d": {
+"obs_min": 0.99,
+"n": 17,
+"eta_min": 0.664,
+"eta_n": 488,
+"km": 0.173
+},
+"6808aa0fc377cdac1490ca3d>6808a9d3c377cdac1490ca22": {
+"obs_min": 0.649,
+"n": 17,
+"eta_min": 1.044,
+"eta_n": 480,
+"km": 0.218
+},
+"6808a9d3c377cdac1490ca22>68cd71b3654df5aeb84ba27d": {
+"obs_min": 0.386,
+"n": 17,
+"eta_min": 0.57,
+"eta_n": 488,
+"km": 0.223
+},
+"68cd71b3654df5aeb84ba27d>68cd7102654df5aeb84b933c": {
+"obs_min": 0.999,
+"n": 18,
+"eta_min": 1.051,
+"eta_n": 467,
+"km": 0.35
+},
+"68cd7102654df5aeb84b933c>68cd6fb0654df5aeb84b795a": {
+"obs_min": 2.0,
+"n": 17,
+"eta_min": 2.175,
+"eta_n": 434,
+"km": 0.912
+},
+"68cd6fb0654df5aeb84b795a>68cd7339654df5aeb84bbed5": {
+"obs_min": null,
+"n": 0,
+"eta_min": 1.151,
+"eta_n": 449,
+"km": 0.6
+}
+},
+"67f3b7367a3ef22704724fda": {
+"68cd7389654df5aeb84bc530>68cd7007654df5aeb84b7f4e": {
+"obs_min": 1.503,
+"n": 15,
+"eta_min": 1.379,
+"eta_n": 29,
+"km": 0.595
+},
+"68cd7007654df5aeb84b7f4e>68cd7138654df5aeb84b9783": {
+"obs_min": 1.997,
+"n": 19,
+"eta_min": 2.185,
+"eta_n": 54,
+"km": 0.921
+},
+"68cd7138654df5aeb84b9783>68cd725b654df5aeb84bb050": {
+"obs_min": 0.994,
+"n": 19,
+"eta_min": 1.152,
+"eta_n": 99,
+"km": 0.355
+},
+"68cd725b654df5aeb84bb050>6808a9adc377cdac1490ca13": {
+"obs_min": 0.993,
+"n": 20,
+"eta_min": 0.702,
+"eta_n": 121,
+"km": 0.211
+},
+"6808a9adc377cdac1490ca13>6808aa2fc377cdac1490ca4e": {
+"obs_min": 0.988,
+"n": 20,
+"eta_min": 0.949,
+"eta_n": 138,
+"km": 0.209
+},
+"6808aa2fc377cdac1490ca4e>6808aa69c377cdac1490ca7f": {
+"obs_min": 0.989,
+"n": 21,
+"eta_min": 0.678,
+"eta_n": 152,
+"km": 0.162
+},
+"6808aa69c377cdac1490ca7f>5d5555898daa9a087b2744da": {
+"obs_min": 2.003,
+"n": 20,
+"eta_min": 2.435,
+"eta_n": 168,
+"km": 0.506
+},
+"5d5555898daa9a087b2744da>67f93e63dea9959f689deacf": {
+"obs_min": 3.011,
+"n": 20,
+"eta_min": 3.621,
+"eta_n": 206,
+"km": 0.673
+},
+"67f93e63dea9959f689deacf>5d5554478daa9a087b272fa5": {
+"obs_min": 1.939,
+"n": 18,
+"eta_min": 1.881,
+"eta_n": 268,
+"km": 0.224
+},
+"5d5554478daa9a087b272fa5>67f93ec2dea9959f689deb13": {
+"obs_min": 1.99,
+"n": 18,
+"eta_min": 2.273,
+"eta_n": 308,
+"km": 0.388
+},
+"67f93ec2dea9959f689deb13>67f93f73dea9959f689deb91": {
+"obs_min": 1.004,
+"n": 19,
+"eta_min": 1.55,
+"eta_n": 338,
+"km": 0.355
+},
+"67f93f73dea9959f689deb91>5d554ee48daa9a087b26d789": {
+"obs_min": 1.38,
+"n": 17,
+"eta_min": 2.318,
+"eta_n": 368,
+"km": 0.198
+},
+"5d554ee48daa9a087b26d789>5d554efc8daa9a087b26d8d7": {
+"obs_min": 1.614,
+"n": 19,
+"eta_min": 2.349,
+"eta_n": 393,
+"km": 0.302
+},
+"5d554efc8daa9a087b26d8d7>664df9369321cfe0e42c0c8c": {
+"obs_min": 0.979,
+"n": 20,
+"eta_min": 0.602,
+"eta_n": 422,
+"km": 0.172
+},
+"664df9369321cfe0e42c0c8c>5d554f198daa9a087b26dab9": {
+"obs_min": 2.009,
+"n": 20,
+"eta_min": 2.169,
+"eta_n": 413,
+"km": 0.425
+},
+"5d554f198daa9a087b26dab9>6550fd5e98b7b5382f0ed7a8": {
+"obs_min": 2.006,
+"n": 20,
+"eta_min": 2.064,
+"eta_n": 437,
+"km": 0.388
+},
+"6550fd5e98b7b5382f0ed7a8>5d55632a8daa9a087b281fb4": {
+"obs_min": 3.978,
+"n": 20,
+"eta_min": 3.597,
+"eta_n": 447,
+"km": 0.54
+},
+"5d55632a8daa9a087b281fb4>5d55636b8daa9a087b2823f4": {
+"obs_min": 2.019,
+"n": 20,
+"eta_min": 1.976,
+"eta_n": 497,
+"km": 0.345
+},
+"5d55636b8daa9a087b2823f4>5d55451705333f05dad21d21": {
+"obs_min": 2.0,
+"n": 21,
+"eta_min": 2.183,
+"eta_n": 502,
+"km": 0.461
+},
+"5d55451705333f05dad21d21>5d5559468daa9a087b278152": {
+"obs_min": 1.976,
+"n": 21,
+"eta_min": 2.206,
+"eta_n": 510,
+"km": 0.411
+},
+"5d5559468daa9a087b278152>5d5559658daa9a087b278341": {
+"obs_min": 2.017,
+"n": 17,
+"eta_min": 2.308,
+"eta_n": 517,
+"km": 0.548
+},
+"5d5559658daa9a087b278341>6808a4bac377cdac1490c770": {
+"obs_min": null,
+"n": 0,
+"eta_min": 1.506,
+"eta_n": 540,
+"km": 0.342
+},
+"6808a4bac377cdac1490c770>6808a475c377cdac1490c750": {
+"obs_min": null,
+"n": 0,
+"eta_min": 1.046,
+"eta_n": 545,
+"km": 0.168
+},
+"6808a475c377cdac1490c750>6808a3f5c377cdac1490c720": {
+"obs_min": null,
+"n": 0,
+"eta_min": 1.512,
+"eta_n": 518,
+"km": 0.316
+},
+"6808a3f5c377cdac1490c720>6808a38cc377cdac1490c6e2": {
+"obs_min": null,
+"n": 0,
+"eta_min": 0.797,
+"eta_n": 497,
+"km": 0.221
+},
+"6808a38cc377cdac1490c6e2>6808a2e1c377cdac1490c67f": {
+"obs_min": null,
+"n": 0,
+"eta_min": 0.946,
+"eta_n": 478,
+"km": 0.259
+},
+"6808a2e1c377cdac1490c67f>67f9279fdea9959f689dd772": {
+"obs_min": null,
+"n": 0,
+"eta_min": 0.882,
+"eta_n": 457,
+"km": 0.331
+},
+"67f9279fdea9959f689dd772>6808a249c377cdac1490c63e": {
+"obs_min": null,
+"n": 0,
+"eta_min": 1.934,
+"eta_n": 424,
+"km": 0.34
+}
+},
+"67efd10565f9cc9b636dfa45": {
+"67fc006adea9959f689eb40e>67fc00e5dea9959f689eb443": {
+"obs_min": 5.085,
+"n": 1,
+"eta_min": 6,
+"eta_n": 2,
+"km": 0.669
+},
+"67fc00e5dea9959f689eb443>67fc021bdea9959f689eb4a8": {
+"obs_min": 2.011,
+"n": 6,
+"eta_min": 1.328,
+"eta_n": 61,
+"km": 0.445
+},
+"67fc021bdea9959f689eb4a8>5d5550058daa9a087b26e9c7": {
+"obs_min": 4.763,
+"n": 6,
+"eta_min": 7.468,
+"eta_n": 77,
+"km": 0.917
+},
+"5d5550058daa9a087b26e9c7>5d555fbc8daa9a087b27e8ee": {
+"obs_min": 4.993,
+"n": 6,
+"eta_min": 2.043,
+"eta_n": 94,
+"km": 0.484
+},
+"5d555fbc8daa9a087b27e8ee>5d555feb8daa9a087b27eb51": {
+"obs_min": 2.01,
+"n": 6,
+"eta_min": 2.028,
+"eta_n": 109,
+"km": 0.432
+},
+"5d555feb8daa9a087b27eb51>5d5560238daa9a087b27eeaf": {
+"obs_min": null,
+"n": 0,
+"eta_min": 2.767,
+"eta_n": 120,
+"km": 0.79
+},
+"5d5560238daa9a087b27eeaf>5d5553c98daa9a087b2726ef": {
+"obs_min": null,
+"n": 0,
+"eta_min": 3.309,
+"eta_n": 149,
+"km": 0.558
+},
+"5d5553c98daa9a087b2726ef>6818eb7ff413ae055a411766": {
+"obs_min": 1.008,
+"n": 1,
+"eta_min": 1.444,
+"eta_n": 151,
+"km": 0.264
+},
+"6818eb7ff413ae055a411766>68186ec99b0f728e678c5b52": {
+"obs_min": null,
+"n": 0,
+"eta_min": 3.262,
+"eta_n": 130,
+"km": 0.541
+}
+},
+"67efd19665f9cc9b636dfab6": {
+"6818ebecf413ae055a4117f2>67f93f73dea9959f689deb91": {
+"obs_min": 2.011,
+"n": 3,
+"eta_min": 2.3,
+"eta_n": 10,
+"km": 0.343
+},
+"67f93f73dea9959f689deb91>5d5546bc05333f05dad23616": {
+"obs_min": 0.827,
+"n": 2,
+"eta_min": 1.15,
+"eta_n": 20,
+"km": 0.151
+},
+"5d5546bc05333f05dad23616>5d5562f18daa9a087b281be9": {
+"obs_min": 1.636,
+"n": 2,
+"eta_min": 2.276,
+"eta_n": 29,
+"km": 0.398
+},
+"5d5562f18daa9a087b281be9>6550f04398b7b5382f0ed472": {
+"obs_min": 1.785,
+"n": 2,
+"eta_min": 2.483,
+"eta_n": 29,
+"km": 0.386
+},
+"6550f04398b7b5382f0ed472>6550f11a98b7b5382f0ed491": {
+"obs_min": 2.231,
+"n": 2,
+"eta_min": 3.103,
+"eta_n": 29,
+"km": 0.363
+},
+"6550f11a98b7b5382f0ed491>655108a298b7b5382f0edb98": {
+"obs_min": 4.759,
+"n": 2,
+"eta_min": 1.297,
+"eta_n": 37,
+"km": 0.257
+},
+"655108a298b7b5382f0edb98>5d554f778daa9a087b26e0c3": {
+"obs_min": 3.002,
+"n": 4,
+"eta_min": 2.881,
+"eta_n": 42,
+"km": 0.541
+},
+"5d554f778daa9a087b26e0c3>5d554f948daa9a087b26e239": {
+"obs_min": 1.978,
+"n": 6,
+"eta_min": 1.39,
+"eta_n": 59,
+"km": 0.453
+},
+"5d554f948daa9a087b26e239>67fc021bdea9959f689eb4a8": {
+"obs_min": null,
+"n": 0,
+"eta_min": 2.971,
+"eta_n": 69,
+"km": 0.535
+},
+"67fc021bdea9959f689eb4a8>67fcb8fb82c45fc1bd0e6c5b": {
+"obs_min": null,
+"n": 0,
+"eta_min": 1.234,
+"eta_n": 77,
+"km": 0.432
+},
+"67fcb8fb82c45fc1bd0e6c5b>67fc006adea9959f689eb40e": {
+"obs_min": 5.5,
+"n": 2,
+"eta_min": 5.654,
+"eta_n": 78,
+"km": 0.666
+},
+"67fc006adea9959f689eb40e>67fbffefdea9959f689eb3dc": {
+"obs_min": null,
+"n": 0,
+"eta_min": 1.505,
+"eta_n": 105,
+"km": 0.436
+}
+},
+"67f3c1627a3ef227047256f9": {
+"67fcbc4982c45fc1bd0e6dd0>67fcbde082c45fc1bd0e6e84": {
+"obs_min": 2.003,
+"n": 5,
+"eta_min": 3.571,
+"eta_n": 14,
+"km": 0.593
+},
+"67fcbde082c45fc1bd0e6e84>67fcbeb382c45fc1bd0e6f24": {
+"obs_min": 3.003,
+"n": 10,
+"eta_min": 3.225,
+"eta_n": 40,
+"km": 1.07
+},
+"67fcbeb382c45fc1bd0e6f24>67fcbfa082c45fc1bd0e6f8c": {
+"obs_min": 1.993,
+"n": 9,
+"eta_min": 1.932,
+"eta_n": 73,
+"km": 0.698
+},
+"67fcbfa082c45fc1bd0e6f8c>67fcc05982c45fc1bd0e6ff6": {
+"obs_min": null,
+"n": 0,
+"eta_min": 2.326,
+"eta_n": 92,
+"km": 0.548
+},
+"67fcc05982c45fc1bd0e6ff6>67fcc0b182c45fc1bd0e700d": {
+"obs_min": 1.03,
+"n": 7,
+"eta_min": 1.291,
+"eta_n": 141,
+"km": 0.344
+},
+"67fcc0b182c45fc1bd0e700d>67fcc7d082c45fc1bd0e73e6": {
+"obs_min": 1.033,
+"n": 8,
+"eta_min": 1.346,
+"eta_n": 153,
+"km": 0.228
+},
+"67fcc7d082c45fc1bd0e73e6>5d5552e18daa9a087b27178c": {
+"obs_min": 1.996,
+"n": 8,
+"eta_min": 2.524,
+"eta_n": 164,
+"km": 0.421
+},
+"5d5552e18daa9a087b27178c>5d5553178daa9a087b271b46": {
+"obs_min": 3.999,
+"n": 9,
+"eta_min": 2.587,
+"eta_n": 184,
+"km": 0.53
+},
+"5d5553178daa9a087b271b46>5d55455b05333f05dad2212f": {
+"obs_min": 3.006,
+"n": 10,
+"eta_min": 3.986,
+"eta_n": 219,
+"km": 0.638
+},
+"5d55455b05333f05dad2212f>5d55457c05333f05dad22323": {
+"obs_min": 1.971,
+"n": 9,
+"eta_min": 1.476,
+"eta_n": 252,
+"km": 0.46
+},
+"5d55457c05333f05dad22323>65510a0198b7b5382f0edc0a": {
+"obs_min": 1.004,
+"n": 9,
+"eta_min": 1.205,
+"eta_n": 268,
+"km": 0.359
+},
+"65510a0198b7b5382f0edc0a>65510a2a98b7b5382f0edc24": {
+"obs_min": 1.863,
+"n": 8,
+"eta_min": null,
+"eta_n": 0,
+"km": 0.275
+},
+"65510a2a98b7b5382f0edc24>5d55669b8daa9a087b28566d": {
+"obs_min": 1.256,
+"n": 8,
+"eta_min": null,
+"eta_n": 0,
+"km": 0.185
+},
+"5d55669b8daa9a087b28566d>5d5566d08daa9a087b2859b1": {
+"obs_min": 2.368,
+"n": 8,
+"eta_min": null,
+"eta_n": 0,
+"km": 0.349
+},
+"5d5566d08daa9a087b2859b1>5d5567108daa9a087b285d90": {
+"obs_min": 1.999,
+"n": 8,
+"eta_min": 2.065,
+"eta_n": 278,
+"km": 0.717
+}
+},
+"67f3c30a7a3ef22704725876": {
+"5d556d648daa9a087b28c4ed>5d556daf8daa9a087b28c9ae": {
+"obs_min": 3.002,
+"n": 7,
+"eta_min": 2.828,
+"eta_n": 29,
+"km": 1.045
+},
+"5d556daf8daa9a087b28c9ae>5d556ddb8daa9a087b28cc6c": {
+"obs_min": 1.988,
+"n": 10,
+"eta_min": 1.644,
+"eta_n": 59,
+"km": 0.843
+},
+"5d556ddb8daa9a087b28cc6c>5d556e048daa9a087b28ce8a": {
+"obs_min": 1.981,
+"n": 9,
+"eta_min": 2.55,
+"eta_n": 80,
+"km": 0.384
+},
+"5d556e048daa9a087b28ce8a>655108a298b7b5382f0edb98": {
+"obs_min": 0.99,
+"n": 8,
+"eta_min": 0.788,
+"eta_n": 99,
+"km": 0.196
+},
+"655108a298b7b5382f0edb98>5d554f778daa9a087b26e0c3": {
+"obs_min": 2.995,
+"n": 8,
+"eta_min": 3.119,
+"eta_n": 109,
+"km": 0.541
+},
+"5d554f778daa9a087b26e0c3>5d554f948daa9a087b26e239": {
+"obs_min": 1.51,
+"n": 8,
+"eta_min": 1.527,
+"eta_n": 131,
+"km": 0.453
+},
+"5d554f948daa9a087b26e239>5d5559468daa9a087b278152": {
+"obs_min": 3.998,
+"n": 8,
+"eta_min": 6.445,
+"eta_n": 128,
+"km": 0.676
+},
+"5d5559468daa9a087b278152>5d5552e18daa9a087b27178c": {
+"obs_min": 3.003,
+"n": 9,
+"eta_min": 2.358,
+"eta_n": 159,
+"km": 0.548
+},
+"5d5552e18daa9a087b27178c>67fcca3b82c45fc1bd0e7555": {
+"obs_min": 5.269,
+"n": 1,
+"eta_min": null,
+"eta_n": 0,
+"km": 1.113
+},
+"67fcca3b82c45fc1bd0e7555>67fccb0e82c45fc1bd0e75b5": {
+"obs_min": 2.562,
+"n": 1,
+"eta_min": null,
+"eta_n": 0,
+"km": 0.541
+},
+"67fccb0e82c45fc1bd0e75b5>67fccba082c45fc1bd0e75e6": {
+"obs_min": 2.166,
+"n": 1,
+"eta_min": null,
+"eta_n": 0,
+"km": 0.457
+},
+"67fccba082c45fc1bd0e75e6>67fccc1582c45fc1bd0e75ff": {
+"obs_min": 1.502,
+"n": 2,
+"eta_min": 1.701,
+"eta_n": 201,
+"km": 0.72
+},
+"67fccc1582c45fc1bd0e75ff>67fccc7482c45fc1bd0e7635": {
+"obs_min": 2.988,
+"n": 8,
+"eta_min": 2.904,
+"eta_n": 197,
+"km": 1.043
+}
+},
+"67efd28c65f9cc9b636dfb59": {
+"67fcd08e82c45fc1bd0e7806>67fcd04f82c45fc1bd0e77f9": {
+"obs_min": 2.994,
+"n": 4,
+"eta_min": 2,
+"eta_n": 9,
+"km": 0.54
+},
+"67fcd04f82c45fc1bd0e77f9>67fce96582c45fc1bd0e8760": {
+"obs_min": 1.99,
+"n": 4,
+"eta_min": 2.455,
+"eta_n": 22,
+"km": 0.457
+},
+"67fce96582c45fc1bd0e8760>67fce8db82c45fc1bd0e86f6": {
+"obs_min": 1.997,
+"n": 3,
+"eta_min": 1.793,
+"eta_n": 29,
+"km": 0.472
+},
+"67fce8db82c45fc1bd0e86f6>67fcd1a682c45fc1bd0e7898": {
+"obs_min": 2.516,
+"n": 2,
+"eta_min": 2.417,
+"eta_n": 36,
+"km": 0.541
+},
+"67fcd1a682c45fc1bd0e7898>5d5544d905333f05dad21916": {
+"obs_min": 1.521,
+"n": 2,
+"eta_min": 1.905,
+"eta_n": 42,
+"km": 0.282
+},
+"5d5544d905333f05dad21916>5d555fbc8daa9a087b27e8ee": {
+"obs_min": 3.503,
+"n": 2,
+"eta_min": 3.889,
+"eta_n": 45,
+"km": 0.646
+},
+"5d555fbc8daa9a087b27e8ee>5d555feb8daa9a087b27eb51": {
+"obs_min": 2.993,
+"n": 3,
+"eta_min": 2.66,
+"eta_n": 53,
+"km": 0.432
+},
+"5d555feb8daa9a087b27eb51>6550f04398b7b5382f0ed472": {
+"obs_min": 2.042,
+"n": 3,
+"eta_min": 2,
+"eta_n": 61,
+"km": 0.418
+},
+"6550f04398b7b5382f0ed472>5d55669b8daa9a087b28566d": {
+"obs_min": 2.987,
+"n": 3,
+"eta_min": 4.194,
+"eta_n": 67,
+"km": 0.687
+},
+"5d55669b8daa9a087b28566d>5d5566d08daa9a087b2859b1": {
+"obs_min": 1.986,
+"n": 3,
+"eta_min": 1.256,
+"eta_n": 78,
+"km": 0.349
+},
+"5d5566d08daa9a087b2859b1>5d5567108daa9a087b285d90": {
+"obs_min": null,
+"n": 0,
+"eta_min": 2.128,
+"eta_n": 78,
+"km": 0.717
+}
+},
+"67efd2b865f9cc9b636dfb7c": {
+"5d556ddb8daa9a087b28cc6c>5d556e048daa9a087b28ce8a": {
+"obs_min": 3.0,
+"n": 3,
+"eta_min": 2.25,
+"eta_n": 4,
+"km": 0.384
+},
+"5d556e048daa9a087b28ce8a>6550fd5e98b7b5382f0ed7a8": {
+"obs_min": 3.017,
+"n": 4,
+"eta_min": 3.143,
+"eta_n": 14,
+"km": 0.639
+},
+"6550fd5e98b7b5382f0ed7a8>5d55632a8daa9a087b281fb4": {
+"obs_min": 4.187,
+"n": 4,
+"eta_min": 3.5,
+"eta_n": 26,
+"km": 0.54
+},
+"5d55632a8daa9a087b281fb4>5d55636b8daa9a087b2823f4": {
+"obs_min": 1.903,
+"n": 4,
+"eta_min": 1.927,
+"eta_n": 41,
+"km": 0.345
+},
+"5d55636b8daa9a087b2823f4>5d5550228daa9a087b26eb71": {
+"obs_min": 2.976,
+"n": 4,
+"eta_min": 2.723,
+"eta_n": 47,
+"km": 0.56
+},
+"5d5550228daa9a087b26eb71>67fced0282c45fc1bd0e8abc": {
+"obs_min": 1.915,
+"n": 4,
+"eta_min": 1.911,
+"eta_n": 56,
+"km": 0.371
+},
+"67fced0282c45fc1bd0e8abc>67fced6382c45fc1bd0e8b30": {
+"obs_min": 1.97,
+"n": 4,
+"eta_min": 1.918,
+"eta_n": 61,
+"km": 0.548
+},
+"67fced6382c45fc1bd0e8b30>67fcedb882c45fc1bd0e8b83": {
+"obs_min": 1.729,
+"n": 4,
+"eta_min": 1.821,
+"eta_n": 67,
+"km": 0.462
+},
+"67fcedb882c45fc1bd0e8b83>67fcee2e82c45fc1bd0e8be2": {
+"obs_min": 1.899,
+"n": 4,
+"eta_min": 2,
+"eta_n": 73,
+"km": 0.442
+},
+"67fcee2e82c45fc1bd0e8be2>67fceeca82c45fc1bd0e8c61": {
+"obs_min": 2.467,
+"n": 4,
+"eta_min": 2.026,
+"eta_n": 76,
+"km": 0.53
+},
+"67fceeca82c45fc1bd0e8c61>67fcef0b82c45fc1bd0e8ca6": {
+"obs_min": null,
+"n": 0,
+"eta_min": 3.831,
+"eta_n": 77,
+"km": 0.71
+}
+},
+"67efd2fa65f9cc9b636dfbaf": {
+"67fcf1a482c45fc1bd0e8f1f>67fcf25b82c45fc1bd0e8fd1": {
+"obs_min": 1.991,
+"n": 5,
+"eta_min": 2,
+"eta_n": 5,
+"km": 0.31
+},
+"67fcf25b82c45fc1bd0e8fd1>67fcf3cb82c45fc1bd0e90d8": {
+"obs_min": 1.992,
+"n": 10,
+"eta_min": 2.422,
+"eta_n": 45,
+"km": 0.505
+},
+"67fcf3cb82c45fc1bd0e90d8>67fcf57b82c45fc1bd0e924d": {
+"obs_min": 1.976,
+"n": 10,
+"eta_min": 1.403,
+"eta_n": 62,
+"km": 0.379
+},
+"67fcf57b82c45fc1bd0e924d>67fcf68482c45fc1bd0e92f0": {
+"obs_min": 1.984,
+"n": 10,
+"eta_min": 1.831,
+"eta_n": 77,
+"km": 0.426
+},
+"67fcf68482c45fc1bd0e92f0>67fcf7a682c45fc1bd0e93b1": {
+"obs_min": 2.002,
+"n": 8,
+"eta_min": 2.638,
+"eta_n": 94,
+"km": 0.313
+},
+"67fcf7a682c45fc1bd0e93b1>5d5550058daa9a087b26e9c7": {
+"obs_min": 1.495,
+"n": 8,
+"eta_min": 1.858,
+"eta_n": 113,
+"km": 0.266
+},
+"5d5550058daa9a087b26e9c7>5d555fbc8daa9a087b27e8ee": {
+"obs_min": 2.011,
+"n": 8,
+"eta_min": 2.236,
+"eta_n": 127,
+"km": 0.484
+},
+"5d555fbc8daa9a087b27e8ee>5d555feb8daa9a087b27eb51": {
+"obs_min": 4.497,
+"n": 10,
+"eta_min": 2.259,
+"eta_n": 147,
+"km": 0.432
+},
+"5d555feb8daa9a087b27eb51>5d5560238daa9a087b27eeaf": {
+"obs_min": 1.004,
+"n": 10,
+"eta_min": 2.89,
+"eta_n": 191,
+"km": 0.79
+},
+"5d5560238daa9a087b27eeaf>5d554ee48daa9a087b26d789": {
+"obs_min": 2.655,
+"n": 9,
+"eta_min": 3.244,
+"eta_n": 201,
+"km": 0.469
+},
+"5d554ee48daa9a087b26d789>5d554efc8daa9a087b26d8d7": {
+"obs_min": 1.042,
+"n": 16,
+"eta_min": 2.47,
+"eta_n": 232,
+"km": 0.302
+},
+"5d554efc8daa9a087b26d8d7>5d55469705333f05dad233c3": {
+"obs_min": 0.689,
+"n": 14,
+"eta_min": 1.634,
+"eta_n": 262,
+"km": 0.024
+},
+"5d55469705333f05dad233c3>5d5553e58daa9a087b2728a2": {
+"obs_min": 0.751,
+"n": 8,
+"eta_min": 2.576,
+"eta_n": 205,
+"km": 0.803
+},
+"5d5553e58daa9a087b2728a2>6818ebecf413ae055a4117f2": {
+"obs_min": 0.096,
+"n": 8,
+"eta_min": 0.272,
+"eta_n": 298,
+"km": 0.137
+},
+"6818ebecf413ae055a4117f2>68186f179b0f728e678c5baa": {
+"obs_min": null,
+"n": 0,
+"eta_min": 0.957,
+"eta_n": 299,
+"km": 0.531
+}
+},
+"67efd31e65f9cc9b636dfbd3": {
+"6818eb7ff413ae055a411766>67f93ec2dea9959f689deb13": {
+"obs_min": 0.993,
+"n": 7,
+"eta_min": 0.821,
+"eta_n": 39,
+"km": 0.157
+},
+"67f93ec2dea9959f689deb13>67f93f73dea9959f689deb91": {
+"obs_min": 1.001,
+"n": 9,
+"eta_min": 0.76,
+"eta_n": 50,
+"km": 0.355
+},
+"67f93f73dea9959f689deb91>5d5546bc05333f05dad23616": {
+"obs_min": null,
+"n": 0,
+"eta_min": 2.899,
+"eta_n": 69,
+"km": 0.151
+},
+"5d5546bc05333f05dad23616>5d5562f18daa9a087b281be9": {
+"obs_min": 1.01,
+"n": 1,
+"eta_min": 2.693,
+"eta_n": 127,
+"km": 0.398
+},
+"5d5562f18daa9a087b281be9>5d55632a8daa9a087b281fb4": {
+"obs_min": 4.005,
+"n": 9,
+"eta_min": 4.214,
+"eta_n": 140,
+"km": 0.851
+},
+"5d55632a8daa9a087b281fb4>5d55636b8daa9a087b2823f4": {
+"obs_min": 2.02,
+"n": 11,
+"eta_min": 2.225,
+"eta_n": 187,
+"km": 0.345
+},
+"5d55636b8daa9a087b2823f4>5d55451705333f05dad21d21": {
+"obs_min": 1.982,
+"n": 10,
+"eta_min": 2.9,
+"eta_n": 209,
+"km": 0.461
+},
+"5d55451705333f05dad21d21>67fcf7da82c45fc1bd0e93e3": {
+"obs_min": 1.999,
+"n": 10,
+"eta_min": 1.812,
+"eta_n": 229,
+"km": 0.27
+},
+"67fcf7da82c45fc1bd0e93e3>67fcf6ed82c45fc1bd0e9327": {
+"obs_min": 0.993,
+"n": 10,
+"eta_min": 1.706,
+"eta_n": 245,
+"km": 0.313
+},
+"67fcf6ed82c45fc1bd0e9327>67fcf5a182c45fc1bd0e9261": {
+"obs_min": 2.012,
+"n": 10,
+"eta_min": 1.977,
+"eta_n": 257,
+"km": 0.449
+},
+"67fcf5a182c45fc1bd0e9261>67fcf3f682c45fc1bd0e9100": {
+"obs_min": 1.016,
+"n": 10,
+"eta_min": 1.28,
+"eta_n": 275,
+"km": 0.381
+},
+"67fcf3f682c45fc1bd0e9100>67fcf29b82c45fc1bd0e8ff3": {
+"obs_min": 2.941,
+"n": 8,
+"eta_min": 2.561,
+"eta_n": 271,
+"km": 0.489
+},
+"67fcf29b82c45fc1bd0e8ff3>67fcf1c782c45fc1bd0e8f49": {
+"obs_min": 1.005,
+"n": 6,
+"eta_min": 1.433,
+"eta_n": 284,
+"km": 0.292
+},
+"67fcf1c782c45fc1bd0e8f49>67fcf0bd82c45fc1bd0e8e48": {
+"obs_min": null,
+"n": 0,
+"eta_min": 0.587,
+"eta_n": 293,
+"km": 0.244
+}
+},
+"67efd35f65f9cc9b636dfc10": {
+"6813f9e00fe1eb16e92d6029>5d56791ef1ce510305bc70ff": {
+"obs_min": 0.618,
+"n": 3,
+"eta_min": 1,
+"eta_n": 3,
+"km": 0.498
+},
+"5d56791ef1ce510305bc70ff>6813f54b0fe1eb16e92d5fe7": {
+"obs_min": 0.691,
+"n": 7,
+"eta_min": 0.615,
+"eta_n": 13,
+"km": 0.467
+},
+"6813f54b0fe1eb16e92d5fe7>5d567943f1ce510305bc72b1": {
+"obs_min": 0.312,
+"n": 9,
+"eta_min": 0.278,
+"eta_n": 18,
+"km": 0.313
+},
+"5d567943f1ce510305bc72b1>5d567966f1ce510305bc7536": {
+"obs_min": 0.7,
+"n": 9,
+"eta_min": 0.667,
+"eta_n": 24,
+"km": 0.387
+},
+"5d567966f1ce510305bc7536>6813f66c0fe1eb16e92d5fef": {
+"obs_min": 0.766,
+"n": 10,
+"eta_min": 0.733,
+"eta_n": 30,
+"km": 0.657
+},
+"6813f66c0fe1eb16e92d5fef>5d56798af1ce510305bc772c": {
+"obs_min": 0.986,
+"n": 10,
+"eta_min": 0.611,
+"eta_n": 36,
+"km": 0.444
+},
+"5d56798af1ce510305bc772c>6813f7770fe1eb16e92d6021": {
+"obs_min": 0.988,
+"n": 9,
+"eta_min": 0.909,
+"eta_n": 44,
+"km": 0.616
+},
+"6813f7770fe1eb16e92d6021>6813f80b0fe1eb16e92d6027": {
+"obs_min": 0.549,
+"n": 9,
+"eta_min": 0.473,
+"eta_n": 55,
+"km": 0.317
+},
+"6813f80b0fe1eb16e92d6027>5d5679abf1ce510305bc7914": {
+"obs_min": 0.694,
+"n": 10,
+"eta_min": 0.394,
+"eta_n": 66,
+"km": 0.244
+},
+"5d5679abf1ce510305bc7914>68148dba046f84845f09a287": {
+"obs_min": 0.795,
+"n": 14,
+"eta_min": 0.792,
+"eta_n": 72,
+"km": 0.416
+},
+"68148dba046f84845f09a287>5d5679d5f1ce510305bc7c73": {
+"obs_min": 0.201,
+"n": 14,
+"eta_min": 0.116,
+"eta_n": 86,
+"km": 0.013
+},
+"5d5679d5f1ce510305bc7c73>6835a2a7a2f3b4b545fecb81": {
+"obs_min": 2.306,
+"n": 4,
+"eta_min": null,
+"eta_n": 0,
+"km": 1.955
+},
+"6835a2a7a2f3b4b545fecb81>6835a13ea2f3b4b545feca85": {
+"obs_min": 0.186,
+"n": 5,
+"eta_min": null,
+"eta_n": 0,
+"km": 0.138
+},
+"6835a13ea2f3b4b545feca85>5d5679fdf1ce510305bc7e54": {
+"obs_min": 1.165,
+"n": 5,
+"eta_min": null,
+"eta_n": 0,
+"km": 0.868
+},
+"5d5679fdf1ce510305bc7e54>5d567a24f1ce510305bc80f0": {
+"obs_min": 1.891,
+"n": 2,
+"eta_min": null,
+"eta_n": 0,
+"km": 1.123
+},
+"5d567a24f1ce510305bc80f0>5d5553178daa9a087b271b46": {
+"obs_min": 3.01,
+"n": 10,
+"eta_min": 3.688,
+"eta_n": 157,
+"km": 0.446
+},
+"5d5553178daa9a087b271b46>5d5550058daa9a087b26e9c7": {
+"obs_min": 2.014,
+"n": 11,
+"eta_min": 2.855,
+"eta_n": 193,
+"km": 0.438
+},
+"5d5550058daa9a087b26e9c7>5d555fbc8daa9a087b27e8ee": {
+"obs_min": 1.881,
+"n": 10,
+"eta_min": 2.423,
+"eta_n": 208,
+"km": 0.484
+},
+"5d555fbc8daa9a087b27e8ee>5d555feb8daa9a087b27eb51": {
+"obs_min": 1.827,
+"n": 10,
+"eta_min": 2.26,
+"eta_n": 223,
+"km": 0.432
+},
+"5d555feb8daa9a087b27eb51>6550f04398b7b5382f0ed472": {
+"obs_min": 1.978,
+"n": 10,
+"eta_min": 2.06,
+"eta_n": 234,
+"km": 0.418
+},
+"6550f04398b7b5382f0ed472>6550f11a98b7b5382f0ed491": {
+"obs_min": 1.991,
+"n": 11,
+"eta_min": 2.169,
+"eta_n": 248,
+"km": 0.363
+},
+"6550f11a98b7b5382f0ed491>5d55669b8daa9a087b28566d": {
+"obs_min": 1.986,
+"n": 10,
+"eta_min": 2.236,
+"eta_n": 258,
+"km": 0.346
+},
+"5d55669b8daa9a087b28566d>5d5566d08daa9a087b2859b1": {
+"obs_min": 2.01,
+"n": 11,
+"eta_min": 1.57,
+"eta_n": 265,
+"km": 0.349
+},
+"5d5566d08daa9a087b2859b1>5d5567108daa9a087b285d90": {
+"obs_min": 1.005,
+"n": 11,
+"eta_min": 1.954,
+"eta_n": 263,
+"km": 0.717
+},
+"5d5567108daa9a087b285d90>5d55672e8daa9a087b285f33": {
+"obs_min": 1.989,
+"n": 11,
+"eta_min": 1.871,
+"eta_n": 255,
+"km": 0.942
+},
+"5d55672e8daa9a087b285f33>5d5567548daa9a087b2861dc": {
+"obs_min": 0.995,
+"n": 12,
+"eta_min": 1,
+"eta_n": 265,
+"km": 0.485
+},
+"5d5567548daa9a087b2861dc>681472fe046f84845f09906f": {
+"obs_min": 3.015,
+"n": 11,
+"eta_min": 4.373,
+"eta_n": 225,
+"km": 0.353
+},
+"681472fe046f84845f09906f>6813f3320fe1eb16e92d5fb1": {
+"obs_min": null,
+"n": 0,
+"eta_min": 1.509,
+"eta_n": 226,
+"km": 0.251
+}
+},
+"67efd39765f9cc9b636dfc45": {
+"6813fd490fe1eb16e92d6031>5d556d648daa9a087b28c4ed": {
+"obs_min": 4.013,
+"n": 4,
+"eta_min": 2.286,
+"eta_n": 7,
+"km": 0.586
+},
+"5d556d648daa9a087b28c4ed>5d556d8f8daa9a087b28c777": {
+"obs_min": 0.997,
+"n": 9,
+"eta_min": 0.814,
+"eta_n": 43,
+"km": 0.27
+},
+"5d556d8f8daa9a087b28c777>5d556daf8daa9a087b28c9ae": {
+"obs_min": 1.995,
+"n": 11,
+"eta_min": 2.078,
+"eta_n": 51,
+"km": 0.775
+},
+"5d556daf8daa9a087b28c9ae>5d556ddb8daa9a087b28cc6c": {
+"obs_min": 1.996,
+"n": 11,
+"eta_min": 1.529,
+"eta_n": 70,
+"km": 0.843
+},
+"5d556ddb8daa9a087b28cc6c>5d556e048daa9a087b28ce8a": {
+"obs_min": 1.99,
+"n": 11,
+"eta_min": 2.382,
+"eta_n": 89,
+"km": 0.384
+},
+"5d556e048daa9a087b28ce8a>6550fce598b7b5382f0ed77f": {
+"obs_min": 1.003,
+"n": 11,
+"eta_min": 0.902,
+"eta_n": 112,
+"km": 0.169
+},
+"6550fce598b7b5382f0ed77f>6550fd5e98b7b5382f0ed7a8": {
+"obs_min": 2.064,
+"n": 10,
+"eta_min": 2.264,
+"eta_n": 129,
+"km": 0.482
+},
+"6550fd5e98b7b5382f0ed7a8>5d55632a8daa9a087b281fb4": {
+"obs_min": 3.611,
+"n": 10,
+"eta_min": 3.44,
+"eta_n": 168,
+"km": 0.54
+},
+"5d55632a8daa9a087b281fb4>5d55636b8daa9a087b2823f4": {
+"obs_min": 1.995,
+"n": 12,
+"eta_min": 1.917,
+"eta_n": 206,
+"km": 0.345
+},
+"5d55636b8daa9a087b2823f4>5d55451705333f05dad21d21": {
+"obs_min": 1.98,
+"n": 12,
+"eta_min": 2.233,
+"eta_n": 227,
+"km": 0.461
+},
+"5d55451705333f05dad21d21>5d5559468daa9a087b278152": {
+"obs_min": 1.999,
+"n": 13,
+"eta_min": 2.141,
+"eta_n": 249,
+"km": 0.411
+},
+"5d5559468daa9a087b278152>5d567ba7f1ce510305bc99d5": {
+"obs_min": 1.513,
+"n": 14,
+"eta_min": 2.817,
+"eta_n": 273,
+"km": 0.459
+},
+"5d567ba7f1ce510305bc99d5>5d567bd4f1ce510305bc9d2d": {
+"obs_min": 0.625,
+"n": 14,
+"eta_min": null,
+"eta_n": 0,
+"km": 0.386
+},
+"5d567bd4f1ce510305bc9d2d>6835a118a2f3b4b545feca71": {
+"obs_min": 0.25,
+"n": 21,
+"eta_min": null,
+"eta_n": 0,
+"km": 0.124
+},
+"6835a118a2f3b4b545feca71>6835a284a2f3b4b545fecb59": {
+"obs_min": 0.325,
+"n": 24,
+"eta_min": null,
+"eta_n": 0,
+"km": 0.16
+},
+"6835a284a2f3b4b545fecb59>5d567c83f1ce510305bca793": {
+"obs_min": 2.407,
+"n": 14,
+"eta_min": null,
+"eta_n": 0,
+"km": 1.149
+},
+"5d567c83f1ce510305bca793>68148d7d046f84845f09a262": {
+"obs_min": 1.703,
+"n": 14,
+"eta_min": 1.779,
+"eta_n": 294,
+"km": 0.817
+},
+"68148d7d046f84845f09a262>5d568d81f1ce510305bdbe09": {
+"obs_min": 0.985,
+"n": 14,
+"eta_min": 0.734,
+"eta_n": 308,
+"km": 0.444
+},
+"5d568d81f1ce510305bdbe09>6813f8320fe1eb16e92d6028": {
+"obs_min": 0.62,
+"n": 14,
+"eta_min": 0.661,
+"eta_n": 316,
+"km": 0.258
+},
+"6813f8320fe1eb16e92d6028>6813f79e0fe1eb16e92d6024": {
+"obs_min": 0.383,
+"n": 14,
+"eta_min": 0.406,
+"eta_n": 320,
+"km": 0.291
+},
+"6813f79e0fe1eb16e92d6024>5d568da6f1ce510305bdbfae": {
+"obs_min": 0.996,
+"n": 11,
+"eta_min": 0.745,
+"eta_n": 322,
+"km": 0.602
+},
+"5d568da6f1ce510305bdbfae>6813f69b0fe1eb16e92d5ff8": {
+"obs_min": 0.44,
+"n": 12,
+"eta_min": 0.573,
+"eta_n": 330,
+"km": 0.458
+},
+"6813f69b0fe1eb16e92d5ff8>5d568e49f1ce510305bdcb26": {
+"obs_min": 0.906,
+"n": 13,
+"eta_min": 0.816,
+"eta_n": 331,
+"km": 0.634
+},
+"5d568e49f1ce510305bdcb26>5d568edcf1ce510305bdd447": {
+"obs_min": 0.587,
+"n": 13,
+"eta_min": 0.574,
+"eta_n": 333,
+"km": 0.423
+},
+"5d568edcf1ce510305bdd447>6813f5c10fe1eb16e92d5fe8": {
+"obs_min": 0.412,
+"n": 13,
+"eta_min": 0.402,
+"eta_n": 338,
+"km": 0.273
+},
+"6813f5c10fe1eb16e92d5fe8>5d568f1ef1ce510305bdd895": {
+"obs_min": 1.004,
+"n": 13,
+"eta_min": 0.744,
+"eta_n": 340,
+"km": 0.554
+},
+"5d568f1ef1ce510305bdd895>6813fa1f0fe1eb16e92d602a": {
+"obs_min": 0.517,
+"n": 13,
+"eta_min": 0.64,
+"eta_n": 344,
+"km": 0.438
+},
+"6813fa1f0fe1eb16e92d602a>5d568f40f1ce510305bddb8d": {
+"obs_min": 0.487,
+"n": 12,
+"eta_min": 0.602,
+"eta_n": 342,
+"km": 0.371
+},
+"5d568f40f1ce510305bddb8d>6813f1d40fe1eb16e92d5f90": {
+"obs_min": null,
+"n": 0,
+"eta_min": 2.113,
+"eta_n": 335,
+"km": 0.538
+}
+},
+"67efd40765f9cc9b636dfca8": {
+"5d5678f1f1ce510305bc6daf>5d56791ef1ce510305bc70ff": {
+"obs_min": 1.981,
+"n": 5,
+"eta_min": 1.25,
+"eta_n": 16,
+"km": 0.878
+},
+"5d56791ef1ce510305bc70ff>5d567943f1ce510305bc72b1": {
+"obs_min": 1.036,
+"n": 5,
+"eta_min": 1.08,
+"eta_n": 25,
+"km": 0.78
+},
+"5d567943f1ce510305bc72b1>5d5679d5f1ce510305bc7c73": {
+"obs_min": 5.0,
+"n": 5,
+"eta_min": 5,
+"eta_n": 31,
+"km": 3.014
+},
+"5d5679d5f1ce510305bc7c73>5d5679fdf1ce510305bc7e54": {
+"obs_min": 3.007,
+"n": 4,
+"eta_min": 2.804,
+"eta_n": 56,
+"km": 0.959
+},
+"5d5679fdf1ce510305bc7e54>5d567a24f1ce510305bc80f0": {
+"obs_min": 3.189,
+"n": 4,
+"eta_min": 5,
+"eta_n": 68,
+"km": 1.123
+},
+"5d567a24f1ce510305bc80f0>5d5553178daa9a087b271b46": {
+"obs_min": 2.935,
+"n": 4,
+"eta_min": 4.228,
+"eta_n": 79,
+"km": 0.446
+},
+"5d5553178daa9a087b271b46>5d555fbc8daa9a087b27e8ee": {
+"obs_min": 4.241,
+"n": 4,
+"eta_min": 5.337,
+"eta_n": 86,
+"km": 0.903
+},
+"5d555fbc8daa9a087b27e8ee>5d555feb8daa9a087b27eb51": {
+"obs_min": 2.001,
+"n": 5,
+"eta_min": 2.188,
+"eta_n": 96,
+"km": 0.432
+},
+"5d555feb8daa9a087b27eb51>6550f04398b7b5382f0ed472": {
+"obs_min": 1.931,
+"n": 5,
+"eta_min": 2.042,
+"eta_n": 95,
+"km": 0.418
+},
+"6550f04398b7b5382f0ed472>5d55467605333f05dad231cd": {
+"obs_min": 1.92,
+"n": 5,
+"eta_min": 2.03,
+"eta_n": 100,
+"km": 0.622
+},
+"5d55467605333f05dad231cd>5d55469705333f05dad233c3": {
+"obs_min": 1.055,
+"n": 5,
+"eta_min": 1.116,
+"eta_n": 95,
+"km": 0.374
+},
+"5d55469705333f05dad233c3>5d5553c98daa9a087b2726ef": {
+"obs_min": null,
+"n": 0,
+"eta_min": 1.17,
+"eta_n": 88,
+"km": 0.558
+},
+"5d5553c98daa9a087b2726ef>5d5553e58daa9a087b2728a2": {
+"obs_min": null,
+"n": 0,
+"eta_min": 1.43,
+"eta_n": 142,
+"km": 0.257
+}
+},
+"67efd43965f9cc9b636dfcd4": {
+"5d554efc8daa9a087b26d8d7>664df9369321cfe0e42c0c8c": {
+"obs_min": 1.028,
+"n": 2,
+"eta_min": 0.167,
+"eta_n": 6,
+"km": 0.172
+},
+"664df9369321cfe0e42c0c8c>5d554f198daa9a087b26dab9": {
+"obs_min": 2.423,
+"n": 4,
+"eta_min": 2.5,
+"eta_n": 8,
+"km": 0.425
+},
+"5d554f198daa9a087b26dab9>6550fd5e98b7b5382f0ed7a8": {
+"obs_min": 2.002,
+"n": 5,
+"eta_min": 2.25,
+"eta_n": 20,
+"km": 0.388
+},
+"6550fd5e98b7b5382f0ed7a8>5d55632a8daa9a087b281fb4": {
+"obs_min": 3.046,
+"n": 5,
+"eta_min": 3.467,
+"eta_n": 30,
+"km": 0.54
+},
+"5d55632a8daa9a087b281fb4>5d55636b8daa9a087b2823f4": {
+"obs_min": 2.883,
+"n": 5,
+"eta_min": 2.061,
+"eta_n": 49,
+"km": 0.345
+},
+"5d55636b8daa9a087b2823f4>5d5559468daa9a087b278152": {
+"obs_min": 4.522,
+"n": 4,
+"eta_min": 4.812,
+"eta_n": 64,
+"km": 0.857
+},
+"5d5559468daa9a087b278152>5d567ba7f1ce510305bc99d5": {
+"obs_min": 2.52,
+"n": 4,
+"eta_min": 2.865,
+"eta_n": 89,
+"km": 0.459
+},
+"5d567ba7f1ce510305bc99d5>5d567bd4f1ce510305bc9d2d": {
+"obs_min": 2.013,
+"n": 4,
+"eta_min": 1.566,
+"eta_n": 99,
+"km": 0.386
+},
+"5d567bd4f1ce510305bc9d2d>5d567c83f1ce510305bca793": {
+"obs_min": 3.018,
+"n": 3,
+"eta_min": 2.745,
+"eta_n": 106,
+"km": 0.878
+},
+"5d567c83f1ce510305bca793>5d568edcf1ce510305bdd447": {
+"obs_min": 4.99,
+"n": 3,
+"eta_min": 5.706,
+"eta_n": 109,
+"km": 3.822
+},
+"5d568edcf1ce510305bdd447>5d568f1ef1ce510305bdd895": {
+"obs_min": 0.998,
+"n": 4,
+"eta_min": 0.937,
+"eta_n": 127,
+"km": 0.828
+},
+"5d568f1ef1ce510305bdd895>5d568fcbf1ce510305bde426": {
+"obs_min": 4.009,
+"n": 3,
+"eta_min": null,
+"eta_n": 0,
+"km": 3.754
+}
+},
+"67efd47365f9cc9b636dfcfb": {
+"67fd08bf82c45fc1bd0ea10f>67fd0a6882c45fc1bd0ea2c6": {
+"obs_min": 1.003,
+"n": 5,
+"eta_min": 0.556,
+"eta_n": 9,
+"km": 0.199
+},
+"67fd0a6882c45fc1bd0ea2c6>6808c5d3c377cdac1490db0c": {
+"obs_min": 1.013,
+"n": 11,
+"eta_min": 1.167,
+"eta_n": 18,
+"km": 0.324
+},
+"6808c5d3c377cdac1490db0c>6808c76cc377cdac1490dcac": {
+"obs_min": 0.92,
+"n": 11,
+"eta_min": 0.514,
+"eta_n": 35,
+"km": 0.287
+},
+"6808c76cc377cdac1490dcac>6808c882c377cdac1490ddd4": {
+"obs_min": 0.998,
+"n": 10,
+"eta_min": 0.605,
+"eta_n": 43,
+"km": 0.22
+},
+"6808c882c377cdac1490ddd4>67fd0ae482c45fc1bd0ea36e": {
+"obs_min": 1.017,
+"n": 10,
+"eta_min": 1.137,
+"eta_n": 51,
+"km": 0.29
+},
+"67fd0ae482c45fc1bd0ea36e>67fd0c5e82c45fc1bd0ea4de": {
+"obs_min": 1.974,
+"n": 8,
+"eta_min": 2.016,
+"eta_n": 64,
+"km": 0.552
+},
+"67fd0c5e82c45fc1bd0ea4de>657501da7c5211d86277b29d": {
+"obs_min": 0.997,
+"n": 8,
+"eta_min": 1.173,
+"eta_n": 81,
+"km": 0.476
+},
+"657501da7c5211d86277b29d>6808d404e3bdf01a771fb16a": {
+"obs_min": 1.767,
+"n": 9,
+"eta_min": 1.979,
+"eta_n": 95,
+"km": 1.019
+},
+"6808d404e3bdf01a771fb16a>67fd0ece82c45fc1bd0ea7a2": {
+"obs_min": 0.255,
+"n": 7,
+"eta_min": 0.286,
+"eta_n": 112,
+"km": 0.047
+},
+"67fd0ece82c45fc1bd0ea7a2>67fd0f5982c45fc1bd0ea858": {
+"obs_min": 2.503,
+"n": 8,
+"eta_min": 3.219,
+"eta_n": 114,
+"km": 0.769
+},
+"67fd0f5982c45fc1bd0ea858>6575044f7c5211d86277b2a8": {
+"obs_min": 1.969,
+"n": 8,
+"eta_min": 1.496,
+"eta_n": 135,
+"km": 0.446
+},
+"6575044f7c5211d86277b2a8>6808d475e3bdf01a771fb1be": {
+"obs_min": 0.999,
+"n": 8,
+"eta_min": 0.94,
+"eta_n": 149,
+"km": 0.35
+},
+"6808d475e3bdf01a771fb1be>5d55469705333f05dad233c3": {
+"obs_min": 3.515,
+"n": 8,
+"eta_min": 3.601,
+"eta_n": 158,
+"km": 1.545
+},
+"5d55469705333f05dad233c3>5d5546bc05333f05dad23616": {
+"obs_min": 1.988,
+"n": 8,
+"eta_min": 1.652,
+"eta_n": 187,
+"km": 0.421
+},
+"5d5546bc05333f05dad23616>5d5562f18daa9a087b281be9": {
+"obs_min": 1.981,
+"n": 9,
+"eta_min": 2.054,
+"eta_n": 205,
+"km": 0.398
+},
+"5d5562f18daa9a087b281be9>5d55632a8daa9a087b281fb4": {
+"obs_min": 5.005,
+"n": 9,
+"eta_min": 4.073,
+"eta_n": 220,
+"km": 0.851
+},
+"5d55632a8daa9a087b281fb4>5d55636b8daa9a087b2823f4": {
+"obs_min": 2.02,
+"n": 9,
+"eta_min": 1.964,
+"eta_n": 249,
+"km": 0.345
+},
+"5d55636b8daa9a087b2823f4>5d55451705333f05dad21d21": {
+"obs_min": null,
+"n": 0,
+"eta_min": 2.146,
+"eta_n": 246,
+"km": 0.461
+}
+},
+"67efd48e65f9cc9b636dfd06": {
+"5d55451705333f05dad21d21>5d55455b05333f05dad2212f": {
+"obs_min": 2.509,
+"n": 2,
+"eta_min": 1,
+"eta_n": 2,
+"km": 0.413
+},
+"5d55455b05333f05dad2212f>5d55457c05333f05dad22323": {
+"obs_min": 1.98,
+"n": 8,
+"eta_min": 1.381,
+"eta_n": 21,
+"km": 0.46
+},
+"5d55457c05333f05dad22323>65510a0198b7b5382f0edc0a": {
+"obs_min": 1.0,
+"n": 8,
+"eta_min": 1,
+"eta_n": 35,
+"km": 0.359
+},
+"65510a0198b7b5382f0edc0a>65510a2a98b7b5382f0edc24": {
+"obs_min": 2.007,
+"n": 9,
+"eta_min": 2,
+"eta_n": 45,
+"km": 0.275
+},
+"65510a2a98b7b5382f0edc24>6550fce598b7b5382f0ed77f": {
+"obs_min": 1.012,
+"n": 9,
+"eta_min": 1.478,
+"eta_n": 67,
+"km": 0.179
+},
+"6550fce598b7b5382f0ed77f>5d55465605333f05dad22fda": {
+"obs_min": 1.029,
+"n": 9,
+"eta_min": 1.756,
+"eta_n": 78,
+"km": 0.228
+},
+"5d55465605333f05dad22fda>5d55467605333f05dad231cd": {
+"obs_min": 1.98,
+"n": 8,
+"eta_min": 1.659,
+"eta_n": 91,
+"km": 0.431
+},
+"5d55467605333f05dad231cd>5d9f04f7b1ec984b959c1df1": {
+"obs_min": 1.994,
+"n": 9,
+"eta_min": 1.991,
+"eta_n": 108,
+"km": 0.336
+},
+"5d9f04f7b1ec984b959c1df1>657500e07c5211d86277b293": {
+"obs_min": 3.006,
+"n": 8,
+"eta_min": 3.22,
+"eta_n": 127,
+"km": 1.509
+},
+"657500e07c5211d86277b293>6808d90fe3bdf01a771fb56c": {
+"obs_min": 3.213,
+"n": 8,
+"eta_min": 3.757,
+"eta_n": 152,
+"km": 0.491
+},
+"6808d90fe3bdf01a771fb56c>67fd0f8382c45fc1bd0ea896": {
+"obs_min": 0.579,
+"n": 8,
+"eta_min": 0.635,
+"eta_n": 181,
+"km": 0.289
+},
+"67fd0f8382c45fc1bd0ea896>657501a67c5211d86277b296": {
+"obs_min": 1.308,
+"n": 8,
+"eta_min": 1.457,
+"eta_n": 184,
+"km": 0.686
+},
+"657501a67c5211d86277b296>67fd0ef882c45fc1bd0ea7e0": {
+"obs_min": 0.18,
+"n": 8,
+"eta_min": 0.113,
+"eta_n": 195,
+"km": 0.076
+},
+"67fd0ef882c45fc1bd0ea7e0>6808d7d4e3bdf01a771fb440": {
+"obs_min": 1.016,
+"n": 8,
+"eta_min": 1.378,
+"eta_n": 193,
+"km": 0.624
+},
+"6808d7d4e3bdf01a771fb440>67fd0c9c82c45fc1bd0ea516": {
+"obs_min": 2.011,
+"n": 7,
+"eta_min": 1.914,
+"eta_n": 197,
+"km": 0.868
+},
+"67fd0c9c82c45fc1bd0ea516>67fd0b0182c45fc1bd0ea393": {
+"obs_min": 2.098,
+"n": 8,
+"eta_min": 2.394,
+"eta_n": 203,
+"km": 0.545
+},
+"67fd0b0182c45fc1bd0ea393>6808c8b6c377cdac1490de01": {
+"obs_min": 0.75,
+"n": 8,
+"eta_min": 1.005,
+"eta_n": 218,
+"km": 0.31
+},
+"6808c8b6c377cdac1490de01>6808c7ecc377cdac1490dd34": {
+"obs_min": 0.423,
+"n": 8,
+"eta_min": 0.697,
+"eta_n": 221,
+"km": 0.239
+},
+"6808c7ecc377cdac1490dd34>6808c5d6c377cdac1490db0e": {
+"obs_min": 0.976,
+"n": 8,
+"eta_min": 0.905,
+"eta_n": 222,
+"km": 0.261
+},
+"6808c5d6c377cdac1490db0e>67fd0a8a82c45fc1bd0ea2e3": {
+"obs_min": 1.001,
+"n": 8,
+"eta_min": 1.076,
+"eta_n": 223,
+"km": 0.323
+},
+"67fd0a8a82c45fc1bd0ea2e3>67fd092d82c45fc1bd0ea174": {
+"obs_min": 1.003,
+"n": 3,
+"eta_min": 0.939,
+"eta_n": 228,
+"km": 0.21
+},
+"67fd092d82c45fc1bd0ea174>67fd0b6282c45fc1bd0ea3f9": {
+"obs_min": null,
+"n": 0,
+"eta_min": 0.62,
+"eta_n": 229,
+"km": 0.288
+}
+},
+"68a024212279a9cabf0a78fc": {
+"68a0289b2279a9cabf0a8faa>6808f20be3bdf01a771fd553": {
+"obs_min": null,
+"n": 0,
+"eta_min": 3,
+"eta_n": 2,
+"km": 0.737
+},
+"6808f20be3bdf01a771fd553>6808f238e3bdf01a771fd5a1": {
+"obs_min": null,
+"n": 0,
+"eta_min": 1.625,
+"eta_n": 8,
+"km": 0.676
+},
+"6808f238e3bdf01a771fd5a1>6808d475e3bdf01a771fb1be": {
+"obs_min": null,
+"n": 0,
+"eta_min": 5.375,
+"eta_n": 8,
+"km": 1.911
+},
+"6808d475e3bdf01a771fb1be>6808f54de3bdf01a771fdbb8": {
+"obs_min": null,
+"n": 0,
+"eta_min": 2.154,
+"eta_n": 26,
+"km": 1.258
+},
+"6808f54de3bdf01a771fdbb8>5d55469705333f05dad233c3": {
+"obs_min": 2.006,
+"n": 1,
+"eta_min": 1.889,
+"eta_n": 27,
+"km": 0.301
+},
+"5d55469705333f05dad233c3>5d5546bc05333f05dad23616": {
+"obs_min": 2.982,
+"n": 1,
+"eta_min": 1.759,
+"eta_n": 29,
+"km": 0.421
+},
+"5d5546bc05333f05dad23616>5d5562f18daa9a087b281be9": {
+"obs_min": 3.015,
+"n": 1,
+"eta_min": 2.25,
+"eta_n": 32,
+"km": 0.398
+},
+"5d5562f18daa9a087b281be9>5d55632a8daa9a087b281fb4": {
+"obs_min": 5.506,
+"n": 1,
+"eta_min": 4.314,
+"eta_n": 35,
+"km": 0.851
+},
+"5d55632a8daa9a087b281fb4>5d55636b8daa9a087b2823f4": {
+"obs_min": 2.493,
+"n": 1,
+"eta_min": 1.953,
+"eta_n": 43,
+"km": 0.345
+},
+"5d55636b8daa9a087b2823f4>5d55451705333f05dad21d21": {
+"obs_min": null,
+"n": 0,
+"eta_min": 2,
+"eta_n": 44,
+"km": 0.461
+}
+},
+"68a025b62279a9cabf0a819c": {
+"5d55455b05333f05dad2212f>5d55457c05333f05dad22323": {
+"obs_min": 1.121,
+"n": 1,
+"eta_min": 1.5,
+"eta_n": 2,
+"km": 0.46
+},
+"5d55457c05333f05dad22323>65510a0198b7b5382f0edc0a": {
+"obs_min": 0.87,
+"n": 1,
+"eta_min": 1.25,
+"eta_n": 4,
+"km": 0.359
+},
+"65510a0198b7b5382f0edc0a>65510a2a98b7b5382f0edc24": {
+"obs_min": 2.011,
+"n": 2,
+"eta_min": 2,
+"eta_n": 5,
+"km": 0.275
+},
+"65510a2a98b7b5382f0edc24>6550fce598b7b5382f0ed77f": {
+"obs_min": 1.006,
+"n": 3,
+"eta_min": 1.7,
+"eta_n": 10,
+"km": 0.179
+},
+"6550fce598b7b5382f0ed77f>5d55467605333f05dad231cd": {
+"obs_min": 2.987,
+"n": 3,
+"eta_min": 3,
+"eta_n": 13,
+"km": 0.532
+},
+"5d55467605333f05dad231cd>5d9f04f7b1ec984b959c1df1": {
+"obs_min": 2.55,
+"n": 3,
+"eta_min": 1.636,
+"eta_n": 22,
+"km": 0.336
+},
+"5d9f04f7b1ec984b959c1df1>6808f193e3bdf01a771fd4a1": {
+"obs_min": 1.015,
+"n": 3,
+"eta_min": 1.091,
+"eta_n": 33,
+"km": 0.268
+},
+"6808f193e3bdf01a771fd4a1>657500e07c5211d86277b293": {
+"obs_min": 2.011,
+"n": 3,
+"eta_min": 1.771,
+"eta_n": 35,
+"km": 1.244
+},
+"657500e07c5211d86277b293>68a027492279a9cabf0a897f": {
+"obs_min": null,
+"n": 0,
+"eta_min": 3.769,
+"eta_n": 39,
+"km": 0.57
+}
+},
+"67efd4bc65f9cc9b636dfd2a": {
+"6808e37ce3bdf01a771fbf1f>67fd148182c45fc1bd0eaf49": {
+"obs_min": 1.973,
+"n": 1,
+"eta_min": 2,
+"eta_n": 1,
+"km": 0.513
+},
+"67fd148182c45fc1bd0eaf49>6808e291e3bdf01a771fbe73": {
+"obs_min": 1.003,
+"n": 1,
+"eta_min": 1.667,
+"eta_n": 3,
+"km": 0.821
+},
+"6808e291e3bdf01a771fbe73>6808e222e3bdf01a771fbe06": {
+"obs_min": 0.988,
+"n": 1,
+"eta_min": 0.5,
+"eta_n": 4,
+"km": 0.23
+},
+"6808e222e3bdf01a771fbe06>67fd0bd982c45fc1bd0ea46b": {
+"obs_min": 0.543,
+"n": 1,
+"eta_min": 1,
+"eta_n": 5,
+"km": 0.532
+},
+"67fd0bd982c45fc1bd0ea46b>67fd0c5e82c45fc1bd0ea4de": {
+"obs_min": 0.452,
+"n": 1,
+"eta_min": 0.833,
+"eta_n": 6,
+"km": 0.263
+},
+"67fd0c5e82c45fc1bd0ea4de>657501da7c5211d86277b29d": {
+"obs_min": 0.994,
+"n": 1,
+"eta_min": 0.833,
+"eta_n": 6,
+"km": 0.476
+},
+"657501da7c5211d86277b29d>67fd175882c45fc1bd0eb21b": {
+"obs_min": 2.013,
+"n": 1,
+"eta_min": 1.143,
+"eta_n": 7,
+"km": 0.483
+},
+"67fd175882c45fc1bd0eb21b>67fd17d682c45fc1bd0eb296": {
+"obs_min": 0.99,
+"n": 1,
+"eta_min": 1.333,
+"eta_n": 9,
+"km": 0.327
+},
+"67fd17d682c45fc1bd0eb296>67fd181982c45fc1bd0eb2d7": {
+"obs_min": 4.002,
+"n": 1,
+"eta_min": 2.7,
+"eta_n": 10,
+"km": 0.838
+},
+"67fd181982c45fc1bd0eb2d7>67fd16e182c45fc1bd0eb199": {
+"obs_min": 0.995,
+"n": 1,
+"eta_min": 1.286,
+"eta_n": 14,
+"km": 0.441
+},
+"67fd16e182c45fc1bd0eb199>67fd164e82c45fc1bd0eb11f": {
+"obs_min": 2.016,
+"n": 1,
+"eta_min": 1.333,
+"eta_n": 15,
+"km": 0.674
+},
+"67fd164e82c45fc1bd0eb11f>67fd0f5982c45fc1bd0ea858": {
+"obs_min": 2.005,
+"n": 1,
+"eta_min": 2.118,
+"eta_n": 17,
+"km": 0.779
+},
+"67fd0f5982c45fc1bd0ea858>6808d475e3bdf01a771fb1be": {
+"obs_min": 1.991,
+"n": 1,
+"eta_min": 2.053,
+"eta_n": 19,
+"km": 0.619
+},
+"6808d475e3bdf01a771fb1be>5d55469705333f05dad233c3": {
+"obs_min": 4.498,
+"n": 2,
+"eta_min": 3.174,
+"eta_n": 23,
+"km": 1.545
+},
+"5d55469705333f05dad233c3>5d5546bc05333f05dad23616": {
+"obs_min": 1.497,
+"n": 2,
+"eta_min": 1.677,
+"eta_n": 31,
+"km": 0.421
+},
+"5d5546bc05333f05dad23616>5d5562f18daa9a087b281be9": {
+"obs_min": 1.983,
+"n": 2,
+"eta_min": 2,
+"eta_n": 34,
+"km": 0.398
+},
+"5d5562f18daa9a087b281be9>5d55632a8daa9a087b281fb4": {
+"obs_min": 5.0,
+"n": 2,
+"eta_min": 3.889,
+"eta_n": 36,
+"km": 0.851
+},
+"5d55632a8daa9a087b281fb4>5d55636b8daa9a087b2823f4": {
+"obs_min": null,
+"n": 0,
+"eta_min": 1.911,
+"eta_n": 45,
+"km": 0.345
+},
+"5d55636b8daa9a087b2823f4>5d55451705333f05dad21d21": {
+"obs_min": null,
+"n": 0,
+"eta_min": 1.522,
+"eta_n": 46,
+"km": 0.461
+}
+},
+"67efd4d265f9cc9b636dfd34": {
+"5d55455b05333f05dad2212f>5d55457c05333f05dad22323": {
+"obs_min": 0.999,
+"n": 2,
+"eta_min": 1.333,
+"eta_n": 6,
+"km": 0.46
+},
+"5d55457c05333f05dad22323>65510a0198b7b5382f0edc0a": {
+"obs_min": 1.0,
+"n": 2,
+"eta_min": 1,
+"eta_n": 8,
+"km": 0.359
+},
+"65510a0198b7b5382f0edc0a>65510a2a98b7b5382f0edc24": {
+"obs_min": 1.997,
+"n": 2,
+"eta_min": 1.5,
+"eta_n": 10,
+"km": 0.275
+},
+"65510a2a98b7b5382f0edc24>6550fce598b7b5382f0ed77f": {
+"obs_min": 2.522,
+"n": 2,
+"eta_min": 1.529,
+"eta_n": 17,
+"km": 0.179
+},
+"6550fce598b7b5382f0ed77f>5d55465605333f05dad22fda": {
+"obs_min": 0.978,
+"n": 2,
+"eta_min": null,
+"eta_n": 0,
+"km": 0.228
+},
+"5d55465605333f05dad22fda>5d55467605333f05dad231cd": {
+"obs_min": 1.846,
+"n": 2,
+"eta_min": null,
+"eta_n": 0,
+"km": 0.431
+},
+"5d55467605333f05dad231cd>5d9f04f7b1ec984b959c1df1": {
+"obs_min": 1.44,
+"n": 2,
+"eta_min": null,
+"eta_n": 0,
+"km": 0.336
+},
+"5d9f04f7b1ec984b959c1df1>67fd0f8382c45fc1bd0ea896": {
+"obs_min": 8.742,
+"n": 2,
+"eta_min": 7.087,
+"eta_n": 23,
+"km": 1.972
+},
+"67fd0f8382c45fc1bd0ea896>67fd160582c45fc1bd0eb0cd": {
+"obs_min": 1.013,
+"n": 2,
+"eta_min": 2.289,
+"eta_n": 38,
+"km": 0.787
+},
+"67fd160582c45fc1bd0eb0cd>67fd16b282c45fc1bd0eb16d": {
+"obs_min": 1.279,
+"n": 2,
+"eta_min": 1.275,
+"eta_n": 40,
+"km": 0.707
+},
+"67fd16b282c45fc1bd0eb16d>67fd185e82c45fc1bd0eb30a": {
+"obs_min": 1.212,
+"n": 2,
+"eta_min": 1.163,
+"eta_n": 43,
+"km": 0.434
+},
+"67fd185e82c45fc1bd0eb30a>67fd188b82c45fc1bd0eb33e": {
+"obs_min": 3.014,
+"n": 2,
+"eta_min": 3.634,
+"eta_n": 41,
+"km": 0.827
+},
+"67fd188b82c45fc1bd0eb33e>67fd18e182c45fc1bd0eb392": {
+"obs_min": 1.007,
+"n": 2,
+"eta_min": 1.391,
+"eta_n": 46,
+"km": 0.39
+},
+"67fd18e182c45fc1bd0eb392>67fd19bc82c45fc1bd0eb46f": {
+"obs_min": 2.794,
+"n": 2,
+"eta_min": 2.953,
+"eta_n": 43,
+"km": 1.125
+},
+"67fd19bc82c45fc1bd0eb46f>67fd0c0182c45fc1bd0ea48e": {
+"obs_min": 0.189,
+"n": 2,
+"eta_min": 0.146,
+"eta_n": 48,
+"km": 0.07
+},
+"67fd0c0182c45fc1bd0ea48e>67fd1a8482c45fc1bd0eb510": {
+"obs_min": 1.328,
+"n": 2,
+"eta_min": 1.458,
+"eta_n": 48,
+"km": 0.512
+},
+"67fd1a8482c45fc1bd0eb510>6808e273e3bdf01a771fbe57": {
+"obs_min": 0.707,
+"n": 2,
+"eta_min": 0.34,
+"eta_n": 50,
+"km": 0.228
+},
+"6808e273e3bdf01a771fbe57>67fd14ce82c45fc1bd0eafb1": {
+"obs_min": 2.974,
+"n": 2,
+"eta_min": 12.435,
+"eta_n": 23,
+"km": 0.819
+},
+"67fd14ce82c45fc1bd0eafb1>6808e39be3bdf01a771fbf2e": {
+"obs_min": 1.487,
+"n": 2,
+"eta_min": -7.966,
+"eta_n": 29,
+"km": 0.499
+},
+"6808e39be3bdf01a771fbf2e>67fd159082c45fc1bd0eb062": {
+"obs_min": null,
+"n": 0,
+"eta_min": 3.079,
+"eta_n": 38,
+"km": 1.094
+}
+},
+"6808f08be3bdf01a771fd2e8": {
+"5d9f04f7b1ec984b959c1df1>6808f193e3bdf01a771fd4a1": {
+"obs_min": 2.014,
+"n": 5,
+"eta_min": 1.125,
+"eta_n": 8,
+"km": 0.268
+},
+"6808f193e3bdf01a771fd4a1>657500e07c5211d86277b293": {
+"obs_min": 1.997,
+"n": 5,
+"eta_min": 1.739,
+"eta_n": 23,
+"km": 1.244
+},
+"657500e07c5211d86277b293>6808f1c4e3bdf01a771fd4e8": {
+"obs_min": 1.0,
+"n": 8,
+"eta_min": 1.184,
+"eta_n": 38,
+"km": 0.756
+},
+"6808f1c4e3bdf01a771fd4e8>6808f20be3bdf01a771fd553": {
+"obs_min": 0.987,
+"n": 6,
+"eta_min": 0.76,
+"eta_n": 50,
+"km": 0.524
+},
+"6808f20be3bdf01a771fd553>6808f238e3bdf01a771fd5a1": {
+"obs_min": 1.005,
+"n": 6,
+"eta_min": 1.053,
+"eta_n": 57,
+"km": 0.676
+},
+"6808f238e3bdf01a771fd5a1>6808f26ae3bdf01a771fd606": {
+"obs_min": 1.029,
+"n": 8,
+"eta_min": 1.358,
+"eta_n": 67,
+"km": 0.672
+},
+"6808f26ae3bdf01a771fd606>6808f2aae3bdf01a771fd67d": {
+"obs_min": 0.994,
+"n": 5,
+"eta_min": 1.278,
+"eta_n": 79,
+"km": 1.125
+},
+"6808f2aae3bdf01a771fd67d>6808f2d9e3bdf01a771fd6cc": {
+"obs_min": 0.999,
+"n": 5,
+"eta_min": 0.529,
+"eta_n": 87,
+"km": 0.521
+},
+"6808f2d9e3bdf01a771fd6cc>6808f304e3bdf01a771fd72f": {
+"obs_min": 1.008,
+"n": 8,
+"eta_min": 1.099,
+"eta_n": 91,
+"km": 1.024
+},
+"6808f304e3bdf01a771fd72f>6808f336e3bdf01a771fd79a": {
+"obs_min": 1.008,
+"n": 6,
+"eta_min": 1.078,
+"eta_n": 102,
+"km": 0.796
+},
+"6808f336e3bdf01a771fd79a>6808f35ae3bdf01a771fd7d3": {
+"obs_min": 0.772,
+"n": 6,
+"eta_min": 0.712,
+"eta_n": 111,
+"km": 0.471
+},
+"6808f35ae3bdf01a771fd7d3>6808f382e3bdf01a771fd82c": {
+"obs_min": 0.992,
+"n": 8,
+"eta_min": 0.59,
+"eta_n": 117,
+"km": 0.559
+},
+"6808f382e3bdf01a771fd82c>6808f3b5e3bdf01a771fd889": {
+"obs_min": null,
+"n": 0,
+"eta_min": 2.721,
+"eta_n": 122,
+"km": 1.022
+}
+},
+"6808f10ee3bdf01a771fd3a2": {
+"6808f41ee3bdf01a771fd940>6808f44ee3bdf01a771fd9a6": {
+"obs_min": 1.318,
+"n": 5,
+"eta_min": 1.348,
+"eta_n": 23,
+"km": 1.069
+},
+"6808f44ee3bdf01a771fd9a6>6808f472e3bdf01a771fd9f9": {
+"obs_min": 0.997,
+"n": 5,
+"eta_min": 0.697,
+"eta_n": 33,
+"km": 0.683
+},
+"6808f472e3bdf01a771fd9f9>6808f4d5e3bdf01a771fdae4": {
+"obs_min": 5.015,
+"n": 7,
+"eta_min": 5.5,
+"eta_n": 36,
+"km": 2.934
+},
+"6808f4d5e3bdf01a771fdae4>6808f4f8e3bdf01a771fdb14": {
+"obs_min": 1.008,
+"n": 7,
+"eta_min": 0.957,
+"eta_n": 70,
+"km": 0.742
+},
+"6808f4f8e3bdf01a771fdb14>6808d475e3bdf01a771fb1be": {
+"obs_min": 1.004,
+"n": 6,
+"eta_min": 1.117,
+"eta_n": 77,
+"km": 0.545
+},
+"6808d475e3bdf01a771fb1be>6808f54de3bdf01a771fdbb8": {
+"obs_min": 1.99,
+"n": 7,
+"eta_min": 2,
+"eta_n": 87,
+"km": 1.258
+},
+"6808f54de3bdf01a771fdbb8>5d9f04f7b1ec984b959c1df1": {
+"obs_min": null,
+"n": 0,
+"eta_min": 1.417,
+"eta_n": 103,
+"km": 0.297
+}
+},
+"67efd56165f9cc9b636dfd9b": {
+"67fd6cb782c45fc1bd0ef0c2>67fd6e1e82c45fc1bd0ef12e": {
+"obs_min": null,
+"n": 0,
+"eta_min": 2.8,
+"eta_n": 10,
+"km": 1.698
+},
+"67fd6e1e82c45fc1bd0ef12e>67fd6f5482c45fc1bd0ef1c4": {
+"obs_min": null,
+"n": 0,
+"eta_min": 2,
+"eta_n": 8,
+"km": 1.563
+},
+"67fd6f5482c45fc1bd0ef1c4>5d55520d8daa9a087b270af8": {
+"obs_min": null,
+"n": 0,
+"eta_min": 9.286,
+"eta_n": 7,
+"km": 6.006
+},
+"5d55520d8daa9a087b270af8>5d55529d8daa9a087b27137d": {
+"obs_min": null,
+"n": 0,
+"eta_min": 4.143,
+"eta_n": 7,
+"km": 1.992
+},
+"5d55529d8daa9a087b27137d>5d5553178daa9a087b271b46": {
+"obs_min": null,
+"n": 0,
+"eta_min": 6.5,
+"eta_n": 2,
+"km": 1.285
+},
+"67fd66c382c45fc1bd0eeec3>67f7cc021719c87756992949": {
+"obs_min": null,
+"n": 0,
+"eta_min": 0.6,
+"eta_n": 10,
+"km": 0.414
+}
+},
+"67efd58c65f9cc9b636dfdbf": {
+"67fd66fb82c45fc1bd0eeed3>5d5559468daa9a087b278152": {
+"obs_min": 5.494,
+"n": 2,
+"eta_min": 6.5,
+"eta_n": 4,
+"km": 1.173
+},
+"5d5559468daa9a087b278152>5d555abe8daa9a087b27997b": {
+"obs_min": 6.018,
+"n": 2,
+"eta_min": 5.3,
+"eta_n": 10,
+"km": 1.325
+},
+"5d555abe8daa9a087b27997b>67fd702d82c45fc1bd0ef245": {
+"obs_min": 3.978,
+"n": 2,
+"eta_min": 4.318,
+"eta_n": 22,
+"km": 1.993
+},
+"67fd702d82c45fc1bd0ef245>67fd6f7082c45fc1bd0ef1d2": {
+"obs_min": 10.476,
+"n": 2,
+"eta_min": 10.241,
+"eta_n": 29,
+"km": 5.99
+},
+"67fd6f7082c45fc1bd0ef1d2>67fd6e5982c45fc1bd0ef146": {
+"obs_min": 2.499,
+"n": 2,
+"eta_min": 2.104,
+"eta_n": 48,
+"km": 1.592
+},
+"67fd6e5982c45fc1bd0ef146>67fd6cda82c45fc1bd0ef0c8": {
+"obs_min": 2.536,
+"n": 2,
+"eta_min": 2.82,
+"eta_n": 50,
+"km": 1.742
+},
+"67fd6cda82c45fc1bd0ef0c8>67fd6c2b82c45fc1bd0ef089": {
+"obs_min": null,
+"n": 0,
+"eta_min": 18.176,
+"eta_n": 17,
+"km": 4.075
+}
+},
+"67efd5b665f9cc9b636dfdec": {
+"67fe0ee082c45fc1bd0f1a4f>67fe0f2f82c45fc1bd0f1a7b": {
+"obs_min": 1.015,
+"n": 1,
+"eta_min": 1,
+"eta_n": 1,
+"km": 0.359
+},
+"67fe0f2f82c45fc1bd0f1a7b>67fd6e1e82c45fc1bd0ef12e": {
+"obs_min": 17.984,
+"n": 2,
+"eta_min": 19,
+"eta_n": 3,
+"km": 6.69
+},
+"67fd6e1e82c45fc1bd0ef12e>67fd6f5482c45fc1bd0ef1c4": {
+"obs_min": 1.838,
+"n": 2,
+"eta_min": 1.974,
+"eta_n": 38,
+"km": 1.563
+},
+"67fd6f5482c45fc1bd0ef1c4>67fd5d1782c45fc1bd0eeaa1": {
+"obs_min": 2.001,
+"n": 2,
+"eta_min": 2.425,
+"eta_n": 40,
+"km": 1.323
+},
+"67fd5d1782c45fc1bd0eeaa1>67fd5c8682c45fc1bd0eea67": {
+"obs_min": 1.628,
+"n": 2,
+"eta_min": 1.452,
+"eta_n": 42,
+"km": 1.183
+},
+"67fd5c8682c45fc1bd0eea67>5d5551f28daa9a087b270914": {
+"obs_min": 3.733,
+"n": 2,
+"eta_min": 4.024,
+"eta_n": 41,
+"km": 2.668
+},
+"5d5551f28daa9a087b270914>5d5552698daa9a087b271091": {
+"obs_min": 4.772,
+"n": 2,
+"eta_min": 4.343,
+"eta_n": 35,
+"km": 2.351
+},
+"5d5552698daa9a087b271091>5d55529d8daa9a087b27137d": {
+"obs_min": 1.068,
+"n": 2,
+"eta_min": 1.378,
+"eta_n": 37,
+"km": 0.516
+},
+"5d55529d8daa9a087b27137d>5d5552ba8daa9a087b27153e": {
+"obs_min": 1.033,
+"n": 2,
+"eta_min": 1.265,
+"eta_n": 34,
+"km": 0.472
+},
+"5d5552ba8daa9a087b27153e>5d5553178daa9a087b271b46": {
+"obs_min": 5.045,
+"n": 1,
+"eta_min": 4.125,
+"eta_n": 24,
+"km": 0.825
+},
+"5d5553178daa9a087b271b46>67fd66c382c45fc1bd0eeec3": {
+"obs_min": 5.987,
+"n": 1,
+"eta_min": 6.037,
+"eta_n": 27,
+"km": 1.174
+},
+"67fd66c382c45fc1bd0eeec3>67f7cc021719c87756992949": {
+"obs_min": null,
+"n": 0,
+"eta_min": 0.872,
+"eta_n": 39,
+"km": 0.414
+}
+},
+"67efd5e365f9cc9b636dfe16": {
+"67fd66fb82c45fc1bd0eeed3>67fd683482c45fc1bd0eef32": {
+"obs_min": 2.043,
+"n": 1,
+"eta_min": 3,
+"eta_n": 4,
+"km": 0.702
+},
+"67fd683482c45fc1bd0eef32>67fd68af82c45fc1bd0eef57": {
+"obs_min": 1.004,
+"n": 1,
+"eta_min": 0.667,
+"eta_n": 6,
+"km": 0.157
+},
+"67fd68af82c45fc1bd0eef57>5d5559468daa9a087b278152": {
+"obs_min": 3.03,
+"n": 1,
+"eta_min": 2.857,
+"eta_n": 7,
+"km": 0.331
+},
+"5d5559468daa9a087b278152>5d55598a8daa9a087b2785ed": {
+"obs_min": 4.982,
+"n": 1,
+"eta_min": 3.8,
+"eta_n": 10,
+"km": 0.848
+},
+"5d55598a8daa9a087b2785ed>5d555abe8daa9a087b27997b": {
+"obs_min": 1.993,
+"n": 1,
+"eta_min": 1.4,
+"eta_n": 15,
+"km": 0.496
+},
+"5d555abe8daa9a087b27997b>5d555aea8daa9a087b279c64": {
+"obs_min": 2.016,
+"n": 1,
+"eta_min": 1.588,
+"eta_n": 17,
+"km": 0.544
+},
+"5d555aea8daa9a087b279c64>5d555b868daa9a087b27a58d": {
+"obs_min": 5.99,
+"n": 1,
+"eta_min": 4.053,
+"eta_n": 19,
+"km": 2.368
+},
+"5d555b868daa9a087b27a58d>67fd5cb082c45fc1bd0eea77": {
+"obs_min": 5.026,
+"n": 1,
+"eta_min": 4.44,
+"eta_n": 25,
+"km": 2.598
+},
+"67fd5cb082c45fc1bd0eea77>67fd5d4182c45fc1bd0eeabf": {
+"obs_min": null,
+"n": 0,
+"eta_min": 1.633,
+"eta_n": 30,
+"km": 1.156
+},
+"67fd5d4182c45fc1bd0eeabf>67fd6f7082c45fc1bd0ef1d2": {
+"obs_min": 2.952,
+"n": 1,
+"eta_min": 2.419,
+"eta_n": 31,
+"km": 1.358
+},
+"67fd6f7082c45fc1bd0ef1d2>67fd6e5982c45fc1bd0ef146": {
+"obs_min": null,
+"n": 0,
+"eta_min": 1.97,
+"eta_n": 33,
+"km": 1.592
+},
+"67fd6e5982c45fc1bd0ef146>67fe0f5382c45fc1bd0f1a9a": {
+"obs_min": null,
+"n": 0,
+"eta_min": 21.5,
+"eta_n": 6,
+"km": 6.65
+},
+"67fe0f5382c45fc1bd0f1a9a>67fe0f0f82c45fc1bd0f1a68": {
+"obs_min": 1.013,
+"n": 1,
+"eta_min": 0.611,
+"eta_n": 18,
+"km": 0.325
+},
+"67fe0f0f82c45fc1bd0f1a68>67fe0e8a82c45fc1bd0f1a1a": {
+"obs_min": 1.012,
+"n": 1,
+"eta_min": 1.556,
+"eta_n": 18,
+"km": 0.98
+},
+"67fe0e8a82c45fc1bd0f1a1a>67fe0e1e82c45fc1bd0f19c8": {
+"obs_min": null,
+"n": 0,
+"eta_min": 0.842,
+"eta_n": 19,
+"km": 0.292
+},
+"67fe0e1e82c45fc1bd0f19c8>67fe0da282c45fc1bd0f1988": {
+"obs_min": null,
+"n": 0,
+"eta_min": 0.1,
+"eta_n": 30,
+"km": 0.118
+},
+"67fe0da282c45fc1bd0f1988>67fe0cfc82c45fc1bd0f18fa": {
+"obs_min": null,
+"n": 0,
+"eta_min": 0.517,
+"eta_n": 29,
+"km": 0.246
+},
+"67fe0cfc82c45fc1bd0f18fa>67fe0c4782c45fc1bd0f188b": {
+"obs_min": null,
+"n": 0,
+"eta_min": 4.423,
+"eta_n": 26,
+"km": 1.925
+},
+"67fe0c4782c45fc1bd0f188b>67fe0bf182c45fc1bd0f186c": {
+"obs_min": null,
+"n": 0,
+"eta_min": 1.423,
+"eta_n": 26,
+"km": 0.684
+},
+"67fe0bf182c45fc1bd0f186c>67fe0a7682c45fc1bd0f179a": {
+"obs_min": null,
+"n": 0,
+"eta_min": 4.885,
+"eta_n": 26,
+"km": 1.734
+}
+},
+"67efd61265f9cc9b636dfe3e": {
+"67fe3f1482c45fc1bd0f3b21>67fe3fe382c45fc1bd0f3c03": {
+"obs_min": 0.698,
+"n": 2,
+"eta_min": 0.5,
+"eta_n": 6,
+"km": 0.404
+},
+"67fe3fe382c45fc1bd0f3c03>67fe406482c45fc1bd0f3c8b": {
+"obs_min": 0.789,
+"n": 2,
+"eta_min": 0.625,
+"eta_n": 8,
+"km": 0.356
+},
+"67fe406482c45fc1bd0f3c8b>67fe40f682c45fc1bd0f3d2a": {
+"obs_min": 0.996,
+"n": 2,
+"eta_min": 1,
+"eta_n": 9,
+"km": 0.502
+},
+"67fe40f682c45fc1bd0f3d2a>67fe448c82c45fc1bd0f4139": {
+"obs_min": 3.384,
+"n": 2,
+"eta_min": 4,
+"eta_n": 11,
+"km": 2.668
+},
+"67fe448c82c45fc1bd0f4139>67fe454182c45fc1bd0f41f2": {
+"obs_min": 0.623,
+"n": 2,
+"eta_min": 0.737,
+"eta_n": 19,
+"km": 0.345
+},
+"67fe454182c45fc1bd0f41f2>664f2e9a27eaa5a59488796e": {
+"obs_min": 5.016,
+"n": 2,
+"eta_min": 5.316,
+"eta_n": 19,
+"km": 1.085
+},
+"664f2e9a27eaa5a59488796e>5d5551f28daa9a087b270914": {
+"obs_min": 0.454,
+"n": 2,
+"eta_min": 0.481,
+"eta_n": 27,
+"km": 0.21
+},
+"5d5551f28daa9a087b270914>5d55520d8daa9a087b270af8": {
+"obs_min": 3.0,
+"n": 2,
+"eta_min": 1.778,
+"eta_n": 27,
+"km": 0.933
+},
+"5d55520d8daa9a087b270af8>5d5552528daa9a087b270f05": {
+"obs_min": 1.006,
+"n": 2,
+"eta_min": 1.031,
+"eta_n": 32,
+"km": 0.557
+},
+"5d5552528daa9a087b270f05>5d5552698daa9a087b271091": {
+"obs_min": 2.507,
+"n": 2,
+"eta_min": 2.441,
+"eta_n": 34,
+"km": 0.936
+},
+"5d5552698daa9a087b271091>5d55529d8daa9a087b27137d": {
+"obs_min": 1.472,
+"n": 2,
+"eta_min": 1.231,
+"eta_n": 39,
+"km": 0.516
+},
+"5d55529d8daa9a087b27137d>5d5552ba8daa9a087b27153e": {
+"obs_min": 0.988,
+"n": 2,
+"eta_min": 1.262,
+"eta_n": 42,
+"km": 0.472
+},
+"5d5552ba8daa9a087b27153e>5d5553178daa9a087b271b46": {
+"obs_min": 6.068,
+"n": 2,
+"eta_min": 4,
+"eta_n": 44,
+"km": 0.825
+},
+"5d5553178daa9a087b271b46>67fd66c382c45fc1bd0eeec3": {
+"obs_min": 6.941,
+"n": 2,
+"eta_min": 6.217,
+"eta_n": 46,
+"km": 1.174
+},
+"67fd66c382c45fc1bd0eeec3>67f7cc021719c87756992949": {
+"obs_min": 1.036,
+"n": 2,
+"eta_min": 0.737,
+"eta_n": 57,
+"km": 0.414
+},
+"67f7cc021719c87756992949>6ace20310bc848f1dd4bad53": {
+"obs_min": null,
+"n": 0,
+"eta_min": 13.976,
+"eta_n": 41,
+"km": 2.069
+}
+},
+"67efd63065f9cc9b636dfe62": {
+"67fd702d82c45fc1bd0ef245>5d555b868daa9a087b27a58d": {
+"obs_min": 2.002,
+"n": 1,
+"eta_min": 1.24,
+"eta_n": 25,
+"km": 0.976
+},
+"5d555b868daa9a087b27a58d>67fe474d82c45fc1bd0f43bb": {
+"obs_min": 3.323,
+"n": 2,
+"eta_min": 3.609,
+"eta_n": 23,
+"km": 1.121
+},
+"67fe474d82c45fc1bd0f43bb>67fe44de82c45fc1bd0f417f": {
+"obs_min": 0.712,
+"n": 2,
+"eta_min": 0.433,
+"eta_n": 30,
+"km": 0.336
+},
+"67fe44de82c45fc1bd0f417f>67fe412d82c45fc1bd0f3d76": {
+"obs_min": 4.044,
+"n": 2,
+"eta_min": 4.583,
+"eta_n": 24,
+"km": 2.664
+},
+"67fe412d82c45fc1bd0f3d76>67fe40bb82c45fc1bd0f3ce3": {
+"obs_min": 0.936,
+"n": 2,
+"eta_min": 0.968,
+"eta_n": 31,
+"km": 0.508
+},
+"67fe40bb82c45fc1bd0f3ce3>67fe401782c45fc1bd0f3c46": {
+"obs_min": 0.997,
+"n": 2,
+"eta_min": 0.828,
+"eta_n": 29,
+"km": 0.357
+},
+"67fe401782c45fc1bd0f3c46>67fe3f9482c45fc1bd0f3bc4": {
+"obs_min": 1.008,
+"n": 2,
+"eta_min": 0.484,
+"eta_n": 31,
+"km": 0.396
+},
+"67fe3f9482c45fc1bd0f3bc4>6ace21060bc848f1dd4bb9da": {
+"obs_min": null,
+"n": 0,
+"eta_min": 10.242,
+"eta_n": 33,
+"km": 3.547
+}
+},
+"67efd65a65f9cc9b636dfe8a": {
+"67fe4e9282c45fc1bd0f4974>67fe54c782c45fc1bd0f5020": {
+"obs_min": 2.717,
+"n": 2,
+"eta_min": 3,
+"eta_n": 6,
+"km": 1.704
+},
+"67fe54c782c45fc1bd0f5020>67fe557082c45fc1bd0f5073": {
+"obs_min": 0.181,
+"n": 2,
+"eta_min": 0.143,
+"eta_n": 14,
+"km": 0.135
+},
+"67fe557082c45fc1bd0f5073>67fe55d182c45fc1bd0f50aa": {
+"obs_min": 0.204,
+"n": 2,
+"eta_min": 0.071,
+"eta_n": 14,
+"km": 0.073
+},
+"67fe55d182c45fc1bd0f50aa>67fe562b82c45fc1bd0f50e0": {
+"obs_min": 0.891,
+"n": 2,
+"eta_min": 0.667,
+"eta_n": 15,
+"km": 0.259
+},
+"67fe562b82c45fc1bd0f50e0>67fe569682c45fc1bd0f5128": {
+"obs_min": 7.502,
+"n": 2,
+"eta_min": 8.25,
+"eta_n": 16,
+"km": 3.162
+},
+"67fe569682c45fc1bd0f5128>67fe575a82c45fc1bd0f5182": {
+"obs_min": 9.013,
+"n": 2,
+"eta_min": 9.194,
+"eta_n": 31,
+"km": 6.232
+},
+"67fe575a82c45fc1bd0f5182>67fe57f782c45fc1bd0f5201": {
+"obs_min": 1.983,
+"n": 1,
+"eta_min": 2.5,
+"eta_n": 60,
+"km": 1.619
+},
+"67fe57f782c45fc1bd0f5201>657502847c5211d86277b2a2": {
+"obs_min": 1.005,
+"n": 1,
+"eta_min": 1.406,
+"eta_n": 64,
+"km": 0.649
+},
+"657502847c5211d86277b2a2>67fd0c5e82c45fc1bd0ea4de": {
+"obs_min": 3.001,
+"n": 1,
+"eta_min": 2.839,
+"eta_n": 62,
+"km": 1.956
+},
+"67fd0c5e82c45fc1bd0ea4de>67fd0f5982c45fc1bd0ea858": {
+"obs_min": 3.001,
+"n": 1,
+"eta_min": 4.444,
+"eta_n": 54,
+"km": 2.271
+},
+"67fd0f5982c45fc1bd0ea858>5d55469705333f05dad233c3": {
+"obs_min": 5.0,
+"n": 1,
+"eta_min": 5.587,
+"eta_n": 46,
+"km": 1.915
+},
+"5d55469705333f05dad233c3>5d5546bc05333f05dad23616": {
+"obs_min": 1.993,
+"n": 1,
+"eta_min": 1.432,
+"eta_n": 44,
+"km": 0.421
+},
+"5d5546bc05333f05dad23616>5d5562f18daa9a087b281be9": {
+"obs_min": 1.993,
+"n": 1,
+"eta_min": 1.895,
+"eta_n": 38,
+"km": 0.398
+},
+"5d5562f18daa9a087b281be9>5d55632a8daa9a087b281fb4": {
+"obs_min": 2.023,
+"n": 1,
+"eta_min": 3.438,
+"eta_n": 32,
+"km": 0.851
+},
+"5d55632a8daa9a087b281fb4>5d55636b8daa9a087b2823f4": {
+"obs_min": null,
+"n": 0,
+"eta_min": 0.903,
+"eta_n": 31,
+"km": 0.345
+}
+},
+"67efd67765f9cc9b636dfeb6": {
+"67fd0f8382c45fc1bd0ea896>67fd0c9c82c45fc1bd0ea516": {
+"obs_min": 3.009,
+"n": 1,
+"eta_min": 3,
+"eta_n": 1,
+"km": 2.224
+},
+"67fd0c9c82c45fc1bd0ea516>67fe61c782c45fc1bd0f5a7d": {
+"obs_min": 3.961,
+"n": 1,
+"eta_min": 3.25,
+"eta_n": 4,
+"km": 2.114
+},
+"67fe61c782c45fc1bd0f5a7d>67fe59c582c45fc1bd0f532d": {
+"obs_min": 0.799,
+"n": 1,
+"eta_min": 0.75,
+"eta_n": 8,
+"km": 0.28
+},
+"67fe59c582c45fc1bd0f532d>67fe583982c45fc1bd0f5248": {
+"obs_min": 0.213,
+"n": 1,
+"eta_min": 0,
+"eta_n": 9,
+"km": 0.165
+},
+"67fe583982c45fc1bd0f5248>67fe577982c45fc1bd0f51a5": {
+"obs_min": 1.972,
+"n": 1,
+"eta_min": 2.556,
+"eta_n": 9,
+"km": 1.692
+},
+"67fe577982c45fc1bd0f51a5>67fe56b682c45fc1bd0f5130": {
+"obs_min": 11.013,
+"n": 1,
+"eta_min": 8.727,
+"eta_n": 11,
+"km": 6.243
+},
+"67fe56b682c45fc1bd0f5130>67fe564d82c45fc1bd0f50ff": {
+"obs_min": 9.036,
+"n": 1,
+"eta_min": 8.136,
+"eta_n": 22,
+"km": 3.158
+},
+"67fe564d82c45fc1bd0f50ff>67fe55f382c45fc1bd0f50be": {
+"obs_min": 0.631,
+"n": 1,
+"eta_min": 0.742,
+"eta_n": 31,
+"km": 0.24
+},
+"67fe55f382c45fc1bd0f50be>67fe559182c45fc1bd0f507e": {
+"obs_min": 0.17,
+"n": 1,
+"eta_min": 0.094,
+"eta_n": 32,
+"km": 0.058
+},
+"67fe559182c45fc1bd0f507e>67fe54f082c45fc1bd0f503d": {
+"obs_min": 0.17,
+"n": 1,
+"eta_min": 0.094,
+"eta_n": 32,
+"km": 0.124
+},
+"67fe54f082c45fc1bd0f503d>67fe517d82c45fc1bd0f4ca8": {
+"obs_min": 3.02,
+"n": 1,
+"eta_min": 2.9,
+"eta_n": 30,
+"km": 1.703
+}
+},
+"67efd70765f9cc9b636dff57": {
+"67fd765982c45fc1bd0ef5d0>67fd6e1e82c45fc1bd0ef12e": {
+"obs_min": 6.501,
+"n": 2,
+"eta_min": 7,
+"eta_n": 2,
+"km": 3.4
+},
+"67fd6e1e82c45fc1bd0ef12e>67fd6f5482c45fc1bd0ef1c4": {
+"obs_min": 3.973,
+"n": 2,
+"eta_min": 2.071,
+"eta_n": 14,
+"km": 1.563
+},
+"67fd6f5482c45fc1bd0ef1c4>67fd5d1782c45fc1bd0eeaa1": {
+"obs_min": 4.011,
+"n": 2,
+"eta_min": 2.222,
+"eta_n": 18,
+"km": 1.323
+},
+"67fd5d1782c45fc1bd0eeaa1>67fd5c8682c45fc1bd0eea67": {
+"obs_min": 1.045,
+"n": 1,
+"eta_min": 1.636,
+"eta_n": 22,
+"km": 1.183
+},
+"67fd5c8682c45fc1bd0eea67>5d5551f28daa9a087b270914": {
+"obs_min": 4.519,
+"n": 2,
+"eta_min": 3.583,
+"eta_n": 24,
+"km": 2.668
+},
+"5d5552698daa9a087b271091>5d55529d8daa9a087b27137d": {
+"obs_min": 0.965,
+"n": 1,
+"eta_min": 1.273,
+"eta_n": 33,
+"km": 0.516
+},
+"5d55529d8daa9a087b27137d>5d5552ba8daa9a087b27153e": {
+"obs_min": null,
+"n": 0,
+"eta_min": 1.686,
+"eta_n": 35,
+"km": 0.472
+},
+"67fd66c382c45fc1bd0eeec3>67f7cc021719c87756992949": {
+"obs_min": null,
+"n": 0,
+"eta_min": 0.6,
+"eta_n": 30,
+"km": 0.414
+}
+},
+"67efd72d65f9cc9b636dff82": {
+"67fd66fb82c45fc1bd0eeed3>5d5559468daa9a087b278152": {
+"obs_min": 6.481,
+"n": 2,
+"eta_min": 6.5,
+"eta_n": 2,
+"km": 1.173
+},
+"5d5559468daa9a087b278152>5d55598a8daa9a087b2785ed": {
+"obs_min": 3.511,
+"n": 2,
+"eta_min": 3.375,
+"eta_n": 8,
+"km": 0.848
+},
+"5d55598a8daa9a087b2785ed>5d555abe8daa9a087b27997b": {
+"obs_min": 1.995,
+"n": 2,
+"eta_min": 1.6,
+"eta_n": 15,
+"km": 0.496
+},
+"5d555abe8daa9a087b27997b>5d555b868daa9a087b27a58d": {
+"obs_min": 5.029,
+"n": 2,
+"eta_min": 5.263,
+"eta_n": 19,
+"km": 2.909
+},
+"5d555b868daa9a087b27a58d>67fd5cb082c45fc1bd0eea77": {
+"obs_min": 3.492,
+"n": 2,
+"eta_min": 4.103,
+"eta_n": 29,
+"km": 2.598
+},
+"67fd5cb082c45fc1bd0eea77>67fd5d4182c45fc1bd0eeabf": {
+"obs_min": 1.49,
+"n": 2,
+"eta_min": 1.583,
+"eta_n": 36,
+"km": 1.156
+},
+"67fd5d4182c45fc1bd0eeabf>67fd6f7082c45fc1bd0ef1d2": {
+"obs_min": 2.015,
+"n": 1,
+"eta_min": 2.256,
+"eta_n": 39,
+"km": 1.358
+},
+"67fd6f7082c45fc1bd0ef1d2>67fd6e5982c45fc1bd0ef146": {
+"obs_min": 2.016,
+"n": 1,
+"eta_min": 2,
+"eta_n": 42,
+"km": 1.592
+},
+"67fd6e5982c45fc1bd0ef146>67fd75fe82c45fc1bd0ef59f": {
+"obs_min": 5.96,
+"n": 2,
+"eta_min": 6.15,
+"eta_n": 40,
+"km": 3.374
+},
+"67fd75fe82c45fc1bd0ef59f>67fd751f82c45fc1bd0ef545": {
+"obs_min": null,
+"n": 0,
+"eta_min": 1.957,
+"eta_n": 46,
+"km": 0.688
+}
+},
+"67efd77465f9cc9b636dffc7": {
+"5d567ba7f1ce510305bc99d5>67fd7f9882c45fc1bd0ef8d7": {
+"obs_min": null,
+"n": 0,
+"eta_min": 0.286,
+"eta_n": 7,
+"km": 0.375
+},
+"67fd7f9882c45fc1bd0ef8d7>67fcf57b82c45fc1bd0e924d": {
+"obs_min": null,
+"n": 0,
+"eta_min": 0.143,
+"eta_n": 7,
+"km": 0.307
+},
+"67fcf57b82c45fc1bd0e924d>67fd805482c45fc1bd0ef8fd": {
+"obs_min": null,
+"n": 0,
+"eta_min": 0.571,
+"eta_n": 7,
+"km": 0.383
+},
+"67fd805482c45fc1bd0ef8fd>5d567c83f1ce510305bca793": {
+"obs_min": 2.893,
+"n": 1,
+"eta_min": 2.286,
+"eta_n": 7,
+"km": 0.786
+},
+"5d567c83f1ce510305bca793>5d568edcf1ce510305bdd447": {
+"obs_min": 5.998,
+"n": 1,
+"eta_min": 5.833,
+"eta_n": 18,
+"km": 3.822
+},
+"5d568edcf1ce510305bdd447>5d568f40f1ce510305bddb8d": {
+"obs_min": 1.996,
+"n": 1,
+"eta_min": 1.857,
+"eta_n": 42,
+"km": 1.627
+},
+"5d568f40f1ce510305bddb8d>5d568fcbf1ce510305bde426": {
+"obs_min": 4.006,
+"n": 1,
+"eta_min": 3.568,
+"eta_n": 44,
+"km": 3.008
+},
+"5d568fcbf1ce510305bde426>5d569126f1ce510305bdf8c1": {
+"obs_min": 5.063,
+"n": 1,
+"eta_min": 5,
+"eta_n": 48,
+"km": 2.214
+},
+"5d569126f1ce510305bdf8c1>5d569174f1ce510305bdfd58": {
+"obs_min": 0.998,
+"n": 1,
+"eta_min": 1.623,
+"eta_n": 53,
+"km": 0.475
+},
+"5d569174f1ce510305bdfd58>67fd825a82c45fc1bd0ef942": {
+"obs_min": 7.924,
+"n": 1,
+"eta_min": 7.765,
+"eta_n": 51,
+"km": 3.965
+},
+"67fd825a82c45fc1bd0ef942>67fd820182c45fc1bd0ef925": {
+"obs_min": null,
+"n": 0,
+"eta_min": 3.409,
+"eta_n": 44,
+"km": 1.631
+}
+},
+"67efd79565f9cc9b636dffee": {
+"67fd822882c45fc1bd0ef936>67fd828982c45fc1bd0ef945": {
+"obs_min": 18.954,
+"n": 1,
+"eta_min": 3,
+"eta_n": 1,
+"km": 1.618
+},
+"67fd828982c45fc1bd0ef945>5d567802f1ce510305bc5f19": {
+"obs_min": 7.003,
+"n": 1,
+"eta_min": 6.2,
+"eta_n": 5,
+"km": 3.911
+},
+"5d567802f1ce510305bc5f19>5d567888f1ce510305bc6789": {
+"obs_min": 2.02,
+"n": 1,
+"eta_min": 1.667,
+"eta_n": 12,
+"km": 0.435
+},
+"5d567888f1ce510305bc6789>5d5678cbf1ce510305bc6b8e": {
+"obs_min": 2.997,
+"n": 1,
+"eta_min": 3.071,
+"eta_n": 14,
+"km": 2.267
+},
+"5d5678cbf1ce510305bc6b8e>5d5678f1f1ce510305bc6daf": {
+"obs_min": null,
+"n": 0,
+"eta_min": 3.882,
+"eta_n": 17,
+"km": 2.976
+},
+"5d5678f1f1ce510305bc6daf>5d567943f1ce510305bc72b1": {
+"obs_min": null,
+"n": 0,
+"eta_min": 1.571,
+"eta_n": 21,
+"km": 1.652
+},
+"5d567943f1ce510305bc72b1>5d5679d5f1ce510305bc7c73": {
+"obs_min": null,
+"n": 0,
+"eta_min": 3.81,
+"eta_n": 21,
+"km": 3.014
+},
+"5d5679d5f1ce510305bc7c73>5d5679fdf1ce510305bc7e54": {
+"obs_min": 2.056,
+"n": 1,
+"eta_min": 2.083,
+"eta_n": 24,
+"km": 0.959
+},
+"5d5679fdf1ce510305bc7e54>5d567a24f1ce510305bc80f0": {
+"obs_min": null,
+"n": 0,
+"eta_min": 3.04,
+"eta_n": 25,
+"km": 1.123
+}
+},
+"67efd7e565f9cc9b636e0039": {
+"67fd892982c45fc1bd0efaa0>67fd89b982c45fc1bd0efaae": {
+"obs_min": null,
+"n": 0,
+"eta_min": 1,
+"eta_n": 1,
+"km": 0.387
+},
+"67fd89b982c45fc1bd0efaae>67fd88d482c45fc1bd0efa9c": {
+"obs_min": 6.715,
+"n": 2,
+"eta_min": 6,
+"eta_n": 3,
+"km": 3.624
+},
+"67fd88d482c45fc1bd0efa9c>67fd882d82c45fc1bd0efa76": {
+"obs_min": 0.224,
+"n": 2,
+"eta_min": 0.13,
+"eta_n": 23,
+"km": 0.126
+},
+"67fd882d82c45fc1bd0efa76>67fd87c682c45fc1bd0efa61": {
+"obs_min": 3.016,
+"n": 3,
+"eta_min": 7.913,
+"eta_n": 23,
+"km": 0.678
+},
+"67fd87c682c45fc1bd0efa61>5d55520d8daa9a087b270af8": {
+"obs_min": 8.492,
+"n": 2,
+"eta_min": 9,
+"eta_n": 33,
+"km": 5.879
+},
+"5d55520d8daa9a087b270af8>5d5552698daa9a087b271091": {
+"obs_min": 2.545,
+"n": 2,
+"eta_min": 2.614,
+"eta_n": 88,
+"km": 1.477
+},
+"5d5552698daa9a087b271091>5d55529d8daa9a087b27137d": {
+"obs_min": 1.499,
+"n": 2,
+"eta_min": 1.273,
+"eta_n": 88,
+"km": 0.516
+},
+"5d55529d8daa9a087b27137d>5d5552ba8daa9a087b27153e": {
+"obs_min": 0.99,
+"n": 2,
+"eta_min": 1.494,
+"eta_n": 85,
+"km": 0.472
+},
+"5d5552ba8daa9a087b27153e>5d5553178daa9a087b271b46": {
+"obs_min": 5.986,
+"n": 2,
+"eta_min": 3.951,
+"eta_n": 81,
+"km": 0.825
+},
+"5d5553178daa9a087b271b46>67fd66c382c45fc1bd0eeec3": {
+"obs_min": 4.963,
+"n": 1,
+"eta_min": 5.42,
+"eta_n": 88,
+"km": 1.174
+},
+"67fd66c382c45fc1bd0eeec3>67f7cc021719c87756992949": {
+"obs_min": null,
+"n": 0,
+"eta_min": 0.904,
+"eta_n": 104,
+"km": 0.414
+}
+},
+"67efd80065f9cc9b636e004d": {
+"67fd66fb82c45fc1bd0eeed3>67fd683482c45fc1bd0eef32": {
+"obs_min": 2.928,
+"n": 1,
+"eta_min": null,
+"eta_n": 0,
+"km": 0.702
+},
+"67fd683482c45fc1bd0eef32>67fd68af82c45fc1bd0eef57": {
+"obs_min": 0.653,
+"n": 1,
+"eta_min": null,
+"eta_n": 0,
+"km": 0.157
+},
+"67fd68af82c45fc1bd0eef57>5d5559468daa9a087b278152": {
+"obs_min": 1.382,
+"n": 1,
+"eta_min": null,
+"eta_n": 0,
+"km": 0.331
+},
+"5d5559468daa9a087b278152>5d55598a8daa9a087b2785ed": {
+"obs_min": 4.03,
+"n": 1,
+"eta_min": 4.2,
+"eta_n": 5,
+"km": 0.848
+},
+"5d55598a8daa9a087b2785ed>5d555abe8daa9a087b27997b": {
+"obs_min": 1.029,
+"n": 2,
+"eta_min": 1.5,
+"eta_n": 12,
+"km": 0.496
+},
+"5d555abe8daa9a087b27997b>5d555aea8daa9a087b279c64": {
+"obs_min": 1.021,
+"n": 2,
+"eta_min": 1.429,
+"eta_n": 14,
+"km": 0.544
+},
+"5d555aea8daa9a087b279c64>67fd702d82c45fc1bd0ef245": {
+"obs_min": 2.968,
+"n": 2,
+"eta_min": 2.5,
+"eta_n": 16,
+"km": 1.45
+},
+"67fd702d82c45fc1bd0ef245>67fd875b82c45fc1bd0efa51": {
+"obs_min": 10.505,
+"n": 2,
+"eta_min": 9.81,
+"eta_n": 21,
+"km": 5.862
+},
+"67fd875b82c45fc1bd0efa51>67fd885882c45fc1bd0efa7c": {
+"obs_min": 1.717,
+"n": 2,
+"eta_min": 2.596,
+"eta_n": 47,
+"km": 0.671
+},
+"67fd885882c45fc1bd0efa7c>67fd88aa82c45fc1bd0efa93": {
+"obs_min": 0.298,
+"n": 2,
+"eta_min": 0.451,
+"eta_n": 51,
+"km": 0.137
+},
+"67fd88aa82c45fc1bd0efa93>67fd899882c45fc1bd0efaa6": {
+"obs_min": null,
+"n": 0,
+"eta_min": 6.152,
+"eta_n": 46,
+"km": 3.627
+},
+"67fd899882c45fc1bd0efaa6>67fd895882c45fc1bd0efaa3": {
+"obs_min": null,
+"n": 0,
+"eta_min": 2,
+"eta_n": 50,
+"km": 0.548
+}
+}
+}
