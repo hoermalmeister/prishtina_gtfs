@@ -221,7 +221,7 @@ def segment_minutes(direction, stops, coord, travel, global_rate):
     return out, src
 
 
-def along_shape(pts, lon, lat):
+def along_shape(pts, lon, lat, with_dist=False):
     """Vzdálenost (m) podél čáry k nejbližšímu bodu na ní."""
     k = math.cos(math.radians(pts[0][1]))
     xy = lambda lo, la: (lo * 111320 * k, la * 110574)
@@ -236,22 +236,63 @@ def along_shape(pts, lon, lat):
         if best is None or d < best[0]:
             best = (d, along + t * L)
         along += L
-    return best[1]
+    return best if with_dist else best[1]
 
 
-def curve_order(stops, coord, geom):
-    """Pořadí indexů zastávek podle polohy na trase z API; None, pokud pořadí sedí."""
-    pts = (geom or {}).get("coordinates") or []
-    if len(pts) < 2 or len(set(stops)) != len(stops):
-        return None
-    pos = [along_shape(pts, *coord[s][:2]) for s in stops]
-    mx, bad = -1e9, False
-    for x in pos:
-        bad |= x < mx - ORDER_TOLERANCE_M
-        mx = max(mx, x)
-    if not bad:
-        return None
-    return sorted(range(len(stops)), key=lambda i: (pos[i], i))
+MAX_MOVED_SHARE = 0.15            # přeřadit smí nejvýš tolik zastávek směru (min. 2)
+MAX_SHIFT = 4                     # a každou nejvýš o tolik pozic
+MAX_MEAN_DIST_M = 150             # průměrná vzdálenost zastávek od čáry
+
+
+def project_all(pts, stops, coord):
+    res = [along_shape(pts, *coord[s][:2], with_dist=True) for s in stops]
+    return [r[1] for r in res], sum(r[0] for r in res) / len(res)
+
+
+def kept_in_order(pos):
+    """Kolik zastávek může zůstat (nejdelší neklesající podposloupnost s tolerancí)."""
+    best = [1] * len(pos)
+    for j in range(len(pos)):
+        for i in range(j):
+            if pos[j] >= pos[i] - ORDER_TOLERANCE_M and best[i] + 1 > best[j]:
+                best[j] = best[i] + 1
+    return max(best, default=0)
+
+
+def choose_shape(stops, coord, pool, own_key):
+    """Vybere ze všech sebraných čar (v obou orientacích) tu, která nejlépe sedí na zastávky směru.
+
+    Sběrač ukládá čáru pod linku, kterou vozidlo právě hlásí, a ta na konečné bývá ještě
+    předchozí – klíč proto nemusí sedět. Vrací (body čáry nebo None, perm nebo None, poznámka)."""
+    if len(stops) < 3:
+        return None, None, ""
+    sample = [stops[round(k * (len(stops) - 1) / 7)] for k in range(8)]
+    rough = []
+    for key, pts in pool.items():           # hrubý předvýběr na prořídlé čáře
+        thin = pts[::5] + [pts[-1]]
+        pos, mean = project_all(thin, sample, coord)
+        for rev in (False, True):
+            p2 = pos if not rev else [-x for x in pos]
+            rough.append((len(sample) - kept_in_order(p2) + mean / 100, key, rev))
+    best = None
+    for _, key, rev in sorted(rough)[:6]:
+        pts = pool[key][::-1] if rev else pool[key]
+        pos, mean = project_all(pts, stops, coord)
+        moved = len(stops) - kept_in_order(pos) if len(set(stops)) == len(stops) else 0
+        cand = ((mean > MAX_MEAN_DIST_M, moved, mean), key, rev, pts, pos, mean)
+        if best is None or cand[0] < best[0]:
+            best = cand
+    (_far, moved, mean), key, rev, pts, pos, _ = best
+    name = ("vlastní" if key == own_key else f"čára uložená pod {key}") + (" otočená" if rev else "")
+    if mean > MAX_MEAN_DIST_M:
+        return None, None, f"žádná sebraná čára nesedí (nejlepší {mean:.0f} m od zastávek), shape vynechán"
+    if moved == 0:
+        return pts, None, ("" if name == "vlastní" else f"použita {name}")
+    perm = sorted(range(len(stops)), key=lambda i: (pos[i], i))
+    shift = max(abs(n - i) for n, i in enumerate(perm))
+    if moved <= max(2, MAX_MOVED_SHARE * len(stops)) and shift <= MAX_SHIFT:
+        return pts, perm, f"{name}"
+    return None, None, f"pořadí nesedí ani s nejlepší čárou ({moved} zastávek), shape vynechán"
 
 
 def main():
@@ -285,16 +326,26 @@ def main():
     global_rate = (sum(v["obs_min"] for v in meas) / sum(v["km"] for v in meas)) if meas else 4.0
     print(f"Naměřené jízdní doby: {len(meas)} úseků, průměr {global_rate:.2f} min/km vzdušnou čarou")
 
-    routes, trips_out, st_out, shapes_used = {}, [], [], set()
+    pool = {k: v["coordinates"] for k, v in geometry.items()
+            if isinstance(v, dict) and len(v.get("coordinates") or []) >= 2}
+    routes, trips_out, st_out, shapes_used, shape_pts = {}, [], [], set(), {}
     stats = Counter()
     for line, d, dir_id, stops in dirs:
         rid = f"R_{line['_id']}"
-        shape_id = f"S_{d['_id']}" if d["_id"] in geometry else ""
-        # pozice v GTFS: podle křivky trasy, pokud pořadí v API s křivkou nesedí
-        perm = curve_order(stops, coord, geometry.get(d["_id"]))
+        # čára trasy z API: vlastní / otočená / z protisměru; pořadí zastávek podle ní,
+        # pokud se API liší jen místními prohozy
+        pts, perm, note = choose_shape(stops, coord, pool, d["_id"])
+        label = f"{line['bus_sign']} → {stations[stops[-1]]['name'].strip()}"
+        shape_id = ""
+        if pts:
+            shape_id = f"S_{d['_id']}"
+            shape_pts[shape_id] = pts
+        if note:
+            print(f"Trasa {label}: {note}")
+            stats["směrů bez shape" if not pts else "směrů s čárou z jiného klíče / otočenou"] += 1
         if perm:
             moved = [f"{stations[stops[i]]['name'].strip()} ({i + 1}→{n + 1})" for n, i in enumerate(perm) if n != i]
-            print(f"Pořadí podle trasy: {line['bus_sign']} → {stations[stops[-1]]['name'].strip()}: " + ", ".join(moved))
+            print(f"  pořadí podle trasy: " + ", ".join(moved))
             stats["směrů přeřazených podle trasy"] += 1
         newpos = {i: n for n, i in enumerate(perm)} if perm else {i: i for i in range(len(stops))}
         timed = {i for i, s in enumerate(stops) for kind in SERVICES
@@ -393,7 +444,7 @@ def main():
                                  "stop_sequence", "timepoint"], st_out)
         shape_rows = []
         for sh in sorted(x for x in shapes_used if x):
-            pts = (geometry[sh[2:]] or {}).get("coordinates") or []
+            pts = shape_pts[sh]
             for k, (lon, lat, *_r) in enumerate(pts, 1):
                 shape_rows.append([sh, round(lat, 7), round(lon, 7), k])
         if shape_rows:
