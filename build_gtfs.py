@@ -41,6 +41,7 @@ GEOMETRY = "data/line_geometry.json"
 ESTIMATE_BELOW = 0.5              # směr s jízdním řádem na < 50 % zastávek se dopočítá
 ETA_FACTOR = 0.95                 # skutečná doba / odhad navigace (naměřeno na 245 úsecích)
 MIN_SEGMENT_MIN = 0.25
+ORDER_TOLERANCE_M = 30            # zastávka „zpět“ po křivce o víc než tolik = pořadí v API nesedí
 OUT_ZIP = sys.argv[2] if len(sys.argv) > 2 else "prishtina_gtfs.zip"
 TZ = "Europe/Belgrade"            # Kosovo používá středoevropský čas
 VALID_DAYS = 60
@@ -220,6 +221,39 @@ def segment_minutes(direction, stops, coord, travel, global_rate):
     return out, src
 
 
+def along_shape(pts, lon, lat):
+    """Vzdálenost (m) podél čáry k nejbližšímu bodu na ní."""
+    k = math.cos(math.radians(pts[0][1]))
+    xy = lambda lo, la: (lo * 111320 * k, la * 110574)
+    P = xy(lon, lat)
+    best, along = None, 0.0
+    for a, b in zip(pts, pts[1:]):
+        A, B = xy(*a[:2]), xy(*b[:2])
+        dx, dy = B[0] - A[0], B[1] - A[1]
+        L = math.hypot(dx, dy) or 1e-9
+        t = max(0.0, min(1.0, ((P[0] - A[0]) * dx + (P[1] - A[1]) * dy) / (L * L)))
+        d = math.hypot(P[0] - A[0] - t * dx, P[1] - A[1] - t * dy)
+        if best is None or d < best[0]:
+            best = (d, along + t * L)
+        along += L
+    return best[1]
+
+
+def curve_order(stops, coord, geom):
+    """Pořadí indexů zastávek podle polohy na trase z API; None, pokud pořadí sedí."""
+    pts = (geom or {}).get("coordinates") or []
+    if len(pts) < 2 or len(set(stops)) != len(stops):
+        return None
+    pos = [along_shape(pts, *coord[s][:2]) for s in stops]
+    mx, bad = -1e9, False
+    for x in pos:
+        bad |= x < mx - ORDER_TOLERANCE_M
+        mx = max(mx, x)
+    if not bad:
+        return None
+    return sorted(range(len(stops)), key=lambda i: (pos[i], i))
+
+
 def main():
     opener = gzip.open if RAW.endswith(".gz") else open
     with opener(RAW, "rt", encoding="utf-8") as fh:
@@ -256,9 +290,19 @@ def main():
     for line, d, dir_id, stops in dirs:
         rid = f"R_{line['_id']}"
         shape_id = f"S_{d['_id']}" if d["_id"] in geometry else ""
+        # pozice v GTFS: podle křivky trasy, pokud pořadí v API s křivkou nesedí
+        perm = curve_order(stops, coord, geometry.get(d["_id"]))
+        if perm:
+            moved = [f"{stations[stops[i]]['name'].strip()} ({i + 1}→{n + 1})" for n, i in enumerate(perm) if n != i]
+            print(f"Pořadí podle trasy: {line['bus_sign']} → {stations[stops[-1]]['name'].strip()}: " + ", ".join(moved))
+            stats["směrů přeřazených podle trasy"] += 1
+        newpos = {i: n for n, i in enumerate(perm)} if perm else {i: i for i in range(len(stops))}
         timed = {i for i, s in enumerate(stops) for kind in SERVICES
                  if f"{d['_id']}/{s}" in sched and sched[f"{d['_id']}/{s}"].get(kind)}
         estimated = bool(timed) and len(timed) < ESTIMATE_BELOW * len(stops)
+        if estimated and perm:
+            stops = [stops[i] for i in perm]
+            newpos = {i: i for i in range(len(stops))}
         if estimated:
             segs, src = segment_minutes(d["_id"], stops, coord, travel, global_rate)
             stats.update({f"úseky dopočtených směrů – {k}": v for k, v in src.items()})
@@ -298,16 +342,21 @@ def main():
                     stats["zahozený spoj s jediným časem"] += 1
                     continue
                 idx = sorted(known)
-                if any(known[b] < known[a] for a, b in zip(idx, idx[1:])):
+                if not perm and any(known[b] < known[a] for a, b in zip(idx, idx[1:])):
                     stats["zahozený spoj s klesajícími časy"] += 1
                     continue
+                # zastávky v pořadí podle křivky, časy spoje vzestupně za sebou
+                idx = sorted(known, key=lambda i: newpos[i])
+                times = sorted(known.values())
+                if perm and times != [known[i] for i in idx]:
+                    stats["spojů s přeházenými časy podle trasy"] += 1
                 n += 1
                 tid = f"{d['_id']}_{sid}_{n:03d}"
                 headsign = " ".join(stations[stops[idx[-1]]]["name"].split())
                 trips_out.append([rid, sid, tid, headsign, dir_id, shape_id])
                 shapes_used.add(shape_id)
-                for i in idx:
-                    st_out.append([tid, fmt(known[i]), fmt(known[i]), stops[i], i + 1, 1])
+                for i, t in zip(idx, times):
+                    st_out.append([tid, fmt(t), fmt(t), stops[i], newpos[i] + 1, 1])
                 stats["spojů z jízdního řádu"] += 1
 
     today = datetime.now(ZoneInfo(TZ)).date()
